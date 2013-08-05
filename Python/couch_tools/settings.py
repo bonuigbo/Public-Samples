@@ -1,0 +1,22 @@
+SETTINGS = {
+    'couchdbs':{
+        'eiger':{
+            'url':'',
+            'db':''
+        },
+        'makalu':{
+            'url':'',
+            'db':''
+        },
+        'halland':{
+            'url':'',
+            'db':''
+        },
+        'vistofte':{
+            'url':'',
+            'db':''
+        }
+    },
+    'temp_dir':',
+    'log_dir':''
+}
