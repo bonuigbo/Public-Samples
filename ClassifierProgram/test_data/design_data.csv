@@ -1,0 +1,1001 @@
+Class,Country,Type,#Total Packages Purchased,Cancelled Orders,$Total Sales For All Items,$Total Sales From Promotional Packages,Total Orders Placed,BV
+BUYER,United States,Business Builder,1,0,1482.35,1382.49,24,1154.8
+BUYER,United States,Distributor,1,0,388.33,1492.72,7,307.65
+BUYER,Malaysia,Business Builder,1,0,4236.9697,2278.7879,0,2903.636
+BUYER,United States,Business Builder,8,0,8638.73,4156.88,138,7707.15
+BUYER,Philippines,Business Builder,1,0,433.3389,754.4444,0,90
+BUYER,South Africa,Business Builder,5,0,1716.9638,1311.2525,15,602.92
+BUYER,Malaysia,Business Builder,2,1,4632.7273,2225.5091,0,3013.636
+BUYER,Malaysia,Business Builder,4,0,1286.9697,685.9091,0,895.4538
+BUYER,Malaysia,Business Builder,1,0,460.303,343.3333,0,164.5454
+BUYER,United States,Distributor,1,1,1589.31,2387.66,32,1406.4
+BUYER,South Africa,Distributor,2,0,510,738.75,7,236.25
+BUYER,Canada,Business Builder,1,0,7136.54,16423.87,30,4920
+BUYER,United States,Distributor,3,0,1999.73,1076.58,10,1462.45
+BUYER,South Africa,Distributor,1,0,280,385.625,0,21
+BUYER,Ecuador,Business Builder,1,0,685.76,9191.07,8,451.6
+BUYER,Philippines,Business Builder,0,0,0.0056,912.7778,0,0
+BUYER,Canada,Distributor,3,0,2274.76,2574.66,35,1379.335
+BUYER,Puerto Rico,Distributor,1,0,0,0,3,131.85
+BUYER,Malaysia,Business Builder,1,1,901.5152,1662.7273,0,564.0905
+BUYER,South Africa,Business Builder,2,1,1677.5025,1403.7563,28,668.52
+BUYER,Canada,Business Builder,2,1,1107.08,2154.09,12,515.335
+BUYER,Philippines,Business Builder,0,1,0.0056,568.8889,0,0
+BUYER,United States,Distributor,2,1,4079.96,3711.62,12,2727.4
+BUYER,South Africa,Business Builder,3,0,883.75,1224.375,11,296.635
+BUYER,Malaysia,Business Builder,1,0,2305.6061,1835.9091,0,1825.4534
+BUYER,Malaysia,Business Builder,5,0,1293.0303,1940.6061,0,866.8175
+BUYER,United States,Distributor,1,0,765.92,793.77,14,615.3
+BUYER,Jamaica,Distributor,4,0,523.74,77.48,6,151.2
+BUYER,Colombia,Distributor,0,0,1437.462,236.946,11,920.7
+BUYER,South Africa,Business Builder,6,0,4964.8088,1336.2563,27,1954.75
+BUYER,Germany,Business Builder,4,0,10837.2667,10263.04,8,7995.6264
+BUYER,South Africa,Distributor,1,0,317.5,741.875,1,105
+BUYER,Canada,Distributor,1,0,721.43,794.31,6,299.335
+BUYER,Australia,Business Builder,1,0,1721.75,2661.75,13,808
+BUYER,Canada,Business Builder,1,0,10176.39,10302.46,37,7152
+BUYER,Ghana,Business Builder,4,0,10770.6667,42346.6667,3,336
+BUYER,Ecuador,Business Builder,2,1,1530.67,6466.68,6,963.7
+BUYER,United States,Distributor,1,0,1351.73,2250.88,1,863.7
+BUYER,Jamaica,Business Builder,4,0,2606.48,863.82,20,732.6
+BUYER,United States,Business Builder,1,0,939.49,977.16,12,627.4
+BUYER,United States,Business Builder,2,0,2915.52,2819.2,50,2517.25
+BUYER,South Africa,Business Builder,1,0,760.625,720.625,12,283.56
+BUYER,South Africa,Business Builder,4,0,2426.875,2667.5013,40,1054.63
+BUYER,United States,Business Builder,1,0,1404.42,2099.74,20,1081
+BUYER,United States,Distributor,3,0,2041.82,574.31,29,1933.8
+BUYER,United States,Business Builder,26,0,9056.23,3691.15,77,8258.65
+BUYER,United States,Business Builder,1,0,4539.3,4915.54,34,3694.3
+BUYER,Taiwan,Business Builder,1,0,400,1250,0,110
+BUYER,United Kingdom,Business Builder,3,0,2828.192,1344.016,24,2188.48
+BUYER,Mexico,Distributor,0,0,69.4715,42.3077,1,33.5
+BUYER,Germany,Business Builder,2,0,1752.3733,1658.9333,6,1065.3663
+BUYER,United States,Business Builder,1,0,979.19,3452.26,20,671.35
+BUYER,Puerto Rico,Distributor,1,0,0,0,10,539.5
+BUYER,United States,Business Builder,3,0,2393.32,3289.35,34,1754.8
+BUYER,South Africa,Business Builder,2,0,743.0263,805.0025,7,283.53
+BUYER,Mexico,Business Builder,0,0,2995.75,1793.0954,35,2421.154
+BUYER,Malaysia,Business Builder,1,1,676.6667,4818.1818,0,362.2725
+BUYER,South Africa,Business Builder,3,0,793.7525,367.5,12,283.5
+BUYER,United States,Distributor,2,0,1410.47,-22.15,20,1318.5
+BUYER,South Africa,Business Builder,7,0,1905,2370.6263,29,807.58
+BUYER,United States,Business Builder,6,0,2186.41,7358.49,13,1608.4
+BUYER,United States,Business Builder,2,0,1686.31,2546.01,23,1330.6
+BUYER,Philippines,Distributor,0,0,0.0056,95.5556,0,0
+BUYER,Malaysia,Business Builder,1,0,1856.6667,4023.6364,0,1421.8172
+BUYER,Mexico,Distributor,0,0,430.8185,737.3008,10,335
+BUYER,South Africa,Business Builder,4,0,1392.5,1806.875,25,588.49
+BUYER,South Africa,Business Builder,1,0,320,1365.625,1,42.875
+BUYER,United States,Business Builder,7,0,2492.11,1808.12,35,2029.75
+BUYER,Taiwan,Business Builder,1,0,2849.5184,3078.0655,15,2429.5055
+BUYER,Mexico,Business Builder,0,0,1284.4146,217.3038,23,846.654
+BUYER,Malaysia,Business Builder,1,0,4382.5758,2780.7576,0,3004.545
+BUYER,Malaysia,Business Builder,2,0,4633.3333,5030,0,3013.636
+BUYER,South Africa,Distributor,2,0,459.375,1307.5,8,210
+BUYER,United States,Distributor,3,0,1164.3,1983.11,22,615.4
+BUYER,South Africa,Distributor,2,0,962.5875,793.75,15,411.28
+BUYER,United States,Distributor,1,0,1032.25,1531.67,19,803.2
+BUYER,South Africa,Distributor,3,0,1149.3763,10.0013,19,533.81
+BUYER,Malaysia,Business Builder,1,1,2086.6667,4188.0303,0,1623.6356
+BUYER,United States,Distributor,2,0,543.49,-219.87,7,275.8
+BUYER,Taiwan,Wholesale Buyer,1,0,1142.2581,1782.2581,2,806.7771
+BUYER,Ecuador,Business Builder,1,0,2157.27,5115.5,15,1858
+BUYER,South Africa,Business Builder,2,0,1294.75,3142.5025,20,541.64
+BUYER,South Africa,Business Builder,2,0,258.75,1473.125,1,105
+BUYER,United States,Distributor,2,0,2857.1,1614.42,32,2561.65
+BUYER,United States,Distributor,2,0,5047.34,10240.6,12,4527.4
+BUYER,South Africa,Business Builder,1,0,1566.25,3053.7525,30,677.25
+BUYER,United States,Business Builder,1,0,947.19,2132.87,14,715.3
+BUYER,Malaysia,Business Builder,1,0,690.9091,234.5455,0,362.2725
+BUYER,United States,Distributor,2,0,8149.1,640.35,24,5454.8
+BUYER,United States,Business Builder,3,0,3093.3,2935.51,30,2342.1
+BUYER,United States,Business Builder,1,0,4429.79,3396.28,20,3079
+BUYER,Malaysia,Business Builder,1,0,4367.4242,2774.5455,0,3004.545
+BUYER,United States,Distributor,3,2,1486.37,1559.62,18,986.05
+BUYER,Australia,Business Builder,0,1,0.25,399,0,0
+BUYER,United States,Business Builder,1,0,1383.72,2591.66,24,1154.8
+BUYER,United States,Distributor,2,0,730.32,919.77,10,407.65
+BUYER,United States,Business Builder,1,0,331.89,610.74,0,100
+BUYER,South Africa,Distributor,2,0,279.375,446.25,6,131.275
+BUYER,South Africa,Business Builder,2,0,967.5013,1453.1263,16,332.92
+BUYER,United States,Business Builder,2,0,1551.84,1556.11,21,1242.7
+BUYER,Mexico,Business Builder,1,0,6676.5169,2219.6038,15,5056.154
+BUYER,South Africa,Distributor,1,0,209.5725,596.2513,6,87.5
+BUYER,Malaysia,Business Builder,1,0,677.2727,736.0606,0,362.2725
+BUYER,United States,Business Builder,3,0,8053.98,6166.66,12,6527.4
+BUYER,South Africa,Business Builder,3,0,2329.8913,2599.0038,41,844.7
+BUYER,United States,Business Builder,1,0,2304.96,-950.02,28,1543.95
+BUYER,South Africa,Distributor,1,0,636.25,1874.375,7,175
+BUYER,Malaysia,Distributor,1,0,476.9697,6018.7879,0,403.636
+BUYER,Puerto Rico,Distributor,1,0,0,0,22,2006.4
+BUYER,South Africa,Business Builder,2,0,2172.5,2816.125,42,984.77
+BUYER,Canada,Business Builder,3,0,3399.23,6955.74,17,1895.335
+BUYER,Germany,Business Builder,0,0,375.8533,2018.2267,6,275.28
+BUYER,Malaysia,Business Builder,1,0,1178.7879,6478.7879,0,816.363
+BUYER,South Africa,Business Builder,3,0,950,1175.6275,16,332.53
+BUYER,South Africa,Business Builder,5,0,1244.375,5418.1313,23,486.06
+BUYER,South Africa,Business Builder,1,1,1511.2513,1600.0038,28,579.81
+BUYER,South Africa,Distributor,0,0,291.875,103.75,0,122.5
+BUYER,South Africa,Business Builder,2,0,701.875,1511.25,9,231.145
+BUYER,South Africa,Business Builder,1,0,606.25,513.75,8,196.035
+BUYER,Puerto Rico,Business Builder,1,0,0,0,10,1939.5
+BUYER,United States,Distributor,1,0,893.85,623.62,7,703.2
+BUYER,Canada,Distributor,1,0,985.26,4430.07,12,515.335
+BUYER,United States,Business Builder,1,0,1965.81,3673.52,41,1738
+BUYER,Malaysia,Business Builder,2,0,1529.0909,2057.5758,0,1119.0902
+BUYER,Malaysia,Business Builder,2,0,5089.0909,2642.7273,0,3417.2722
+BUYER,United States,Distributor,1,0,832.65,854.15,10,539.5
+BUYER,South Africa,Business Builder,1,0,517.5,1131.1738,5,135.625
+BUYER,United States,Business Builder,2,0,1893.85,2237.75,24,1322.7
+BUYER,United States,Distributor,2,0,545.07,-75.04,5,275.8
+BUYER,South Africa,Business Builder,2,0,1844.3738,3325.835,24,818.78
+BUYER,Mexico,Business Builder,0,0,2622.4669,361.6585,4,1733.231
+BUYER,Philippines,Wholesale Buyer,0,0,0.0056,1144.9944,0,0
+BUYER,Australia,Distributor,0,0,0.25,245.25,0,0
+BUYER,United States,Business Builder,3,0,2283.57,1734.27,14,1770.1
+BUYER,South Africa,Distributor,1,0,18.75,0,0,0
+BUYER,South Africa,Distributor,1,1,389.375,293.75,1,48.125
+BUYER,United States,Business Builder,1,0,1607.59,2745.73,21,1166.65
+BUYER,Philippines,Business Builder,1,0,707.7833,705,4,282
+BUYER,United Kingdom,Business Builder,3,1,1295.6,3611.312,7,894.64
+BUYER,United States,Business Builder,1,0,1324.97,2138.45,21,979
+BUYER,United States,Business Builder,4,1,4710,2004.66,13,3149.15
+BUYER,South Africa,Distributor,3,0,590,672.5,7,164.13
+BUYER,South Africa,Business Builder,2,1,1072.5013,9051.8625,15,331.52
+BUYER,South Africa,Distributor,1,0,310,1415.63,0,26.25
+BUYER,Jamaica,Distributor,0,0,0.5,1209.66,0,0
+BUYER,United States,Distributor,1,1,801.7,993.6,12,539.5
+BUYER,Canada,Business Builder,3,0,2327.54,7012.63,32,1235.335
+BUYER,South Africa,Business Builder,1,0,1623.75,3836.25,19,709.405
+BUYER,Mexico,Business Builder,0,0,837.3677,434.6077,14,545.154
+BUYER,South Africa,Distributor,2,0,623.1288,1455,15,328.145
+BUYER,Malaysia,Business Builder,1,0,1132.2727,1838.4848,0,765.9085
+BUYER,United States,Distributor,1,0,524.68,-407.2,4,275.8
+BUYER,Malaysia,Business Builder,1,0,958.3333,4798.1818,0,614.545
+BUYER,United States,Distributor,1,0,384.35,3761.8,1,143.95
+BUYER,Philippines,Business Builder,0,0,0.0056,4317.7722,0,0
+BUYER,Philippines,Business Builder,1,0,1370.0053,2308.3333,14,762
+BUYER,Philippines,Business Builder,0,0,0.0056,501.1111,0,0
+BUYER,Philippines,Business Builder,3,0,1244.45,1509.4444,7,666
+BUYER,Malaysia,Business Builder,2,0,5416.9697,5573.9394,0,3719.9996
+BUYER,Mexico,Business Builder,0,0,492.8769,1888.4508,5,243.654
+BUYER,South Africa,Business Builder,1,0,1127.5,831.2513,6,425.03
+BUYER,United States,Distributor,5,0,5068.39,4239.19,51,3577.55
+BUYER,United States,Distributor,4,0,1743.8,716.14,60,1031.15
+BUYER,United States,Business Builder,1,0,1087.15,4149.54,16,803.2
+BUYER,United States,Business Builder,1,0,1287.72,4279.8,26,1142.7
+BUYER,South Africa,Business Builder,2,0,1718.1263,1358.1288,33,748.24
+BUYER,United States,Business Builder,2,0,966.19,624.76,1,627.4
+BUYER,United States,Distributor,1,0,139.45,350.55,2,87.9
+BUYER,United States,Distributor,2,0,511.43,0,4,275.8
+BUYER,South Africa,Business Builder,1,0,727.5,1361.8775,11,236.395
+BUYER,United States,Business Builder,1,0,841.57,2413.5,12,527.5
+BUYER,United States,Distributor,4,0,2088.11,2867.89,7,1447.15
+BUYER,United States,Business Builder,4,0,1296.17,1292.41,13,942.1
+BUYER,Malaysia,Business Builder,1,0,4280,8899.697,0,2903.636
+BUYER,Australia,Business Builder,5,0,13671.61,45261.76,16,8746
+BUYER,South Africa,Business Builder,3,0,590.625,1462.5,6,149.89
+BUYER,South Africa,Business Builder,0,0,0,465,0,0
+BUYER,South Africa,Business Builder,2,0,805.0875,1981.2525,12,281.165
+BUYER,United States,Business Builder,4,0,1151.12,2268.46,9,715.3
+BUYER,Malaysia,Business Builder,1,0,1909.3939,10969.0909,0,1472.2723
+BUYER,South Africa,Business Builder,2,0,1350,2141.8788,26,564.59
+BUYER,South Africa,Distributor,1,0,1113.1275,736.25,27,583.07
+BUYER,Canada,Distributor,1,0,439.37,627.76,1,119.34
+BUYER,Philippines,Business Builder,0,0,0.0056,567.7778,0,0
+BUYER,United States,Business Builder,2,0,887.01,1260.63,15,539.5
+BUYER,Taiwan,Business Builder,1,1,651.2903,5030.001,4,341.028
+BUYER,South Africa,Business Builder,1,0,520.625,2124.375,5,135.645
+BUYER,Malaysia,Business Builder,1,1,507.2727,4124.2424,0,210.909
+BUYER,Puerto Rico,Distributor,2,0,0,0,23,1161.85
+BUYER,United States,Business Builder,3,0,3857.45,6268.28,26,2618.5
+BUYER,Malaysia,Business Builder,1,0,393.9394,3900.6061,0,100
+BUYER,South Africa,Business Builder,1,0,2008.75,4098.75,41,923.295
+BUYER,South Africa,Business Builder,6,0,3683.7513,3442.3763,60,1571.575
+BUYER,South Africa,Business Builder,4,0,856.25,268.75,13,303.04
+BUYER,Germany,Distributor,1,0,556.75,963.77,5,319.75
+BUYER,Colombia,Distributor,0,0,294.168,522.856,4,158.24
+BUYER,South Africa,Distributor,1,0,447.5,368.75,10,218.775
+BUYER,Germany,Business Builder,1,0,397.06,1150.19,8,351.6
+BUYER,United States,Business Builder,2,0,859.76,1823.83,10,539.5
+BUYER,Taiwan,Business Builder,1,0,895.8068,1311.2965,3,573.9011
+BUYER,Philippines,Wholesale Buyer,0,0,0.0056,902.2222,0,0
+BUYER,United States,Business Builder,9,0,2755.36,4731.17,54,1494.4
+BUYER,Malaysia,Business Builder,1,0,850.303,4832.8788,0,513.636
+BUYER,South Africa,Business Builder,1,0,1455.625,3142.5013,28,638.785
+BUYER,South Africa,Business Builder,2,0,1229.375,1329.375,9,490.65
+BUYER,United States,Distributor,1,0,0,0,9,263.7
+BUYER,South Africa,Business Builder,2,0,885.005,2009.375,13,310.635
+BUYER,South Africa,Business Builder,7,1,2796.255,2544.125,31,1093.07
+BUYER,South Africa,Business Builder,8,0,1483.75,160.625,9,457.89
+BUYER,United States,Business Builder,1,0,501.71,957.5,4,275.8
+BUYER,South Africa,Business Builder,1,0,1421.875,4866.6313,29,576.75
+BUYER,United States,Business Builder,1,0,1088.37,1865.91,16,803.2
+BUYER,Australia,Wholesale Buyer,0,0,0.25,2488.25,0,0
+BUYER,United States,Business Builder,6,0,3390.94,4004.81,44,2935.75
+BUYER,United States,Business Builder,1,0,1368.75,1617.96,24,1154.8
+BUYER,Mexico,Business Builder,0,1,332.2985,922.2992,1,109.654
+BUYER,Philippines,Distributor,0,0,0.0056,893.8889,0,0
+BUYER,Malaysia,Business Builder,1,1,563.9394,2598.7879,0,261.3635
+BUYER,Philippines,Business Builder,1,0,855.0056,1496.1111,6,378
+BUYER,Australia,Business Builder,1,0,5676.5,62554.03,35,3680
+BUYER,Malaysia,Business Builder,2,0,4238.4848,3324.8485,0,2660.4545
+BUYER,United States,Distributor,2,0,1134.72,1092.77,4,1054.8
+BUYER,Malaysia,Business Builder,1,0,1409.3939,5147.5758,0,1018.1814
+BUYER,Taiwan,Wholesale Buyer,1,0,1024.1942,4101.6155,5,689.4151
+BUYER,Taiwan,Distributor,2,0,155.8252,1722.0971,9,2967.34
+BUYER,Malaysia,Business Builder,1,0,1068.4848,3927.8788,0,715.4542
+BUYER,South Africa,Business Builder,2,1,1250,1791.875,2,363.75
+BUYER,Malaysia,Business Builder,1,1,787.5758,3901.2121,0,463.1815
+BUYER,Malaysia,Business Builder,2,0,4351.2121,2625.9091,0,2761.3635
+BUYER,Malaysia,Business Builder,1,1,1404.8485,3798.4848,0,1018.1814
+BUYER,New Zealand,Business Builder,1,1,1687.944,8187.12,24,854.192
+BUYER,United States,Distributor,2,0,1159.11,465.63,10,747.25
+BUYER,Canada,Wholesale Buyer,1,0,816.83,2010.54,9,407.34
+BUYER,Philippines,Business Builder,1,0,1593.3389,2083.5667,12,906
+BUYER,South Africa,Business Builder,1,0,512.5,1766.25,5,135.625
+BUYER,Malaysia,Business Builder,1,0,572.4242,4950.9091,0,261.3635
+BUYER,Malaysia,Business Builder,1,0,450.6061,410.1515,0,160.4545
+BUYER,Philippines,Wholesale Buyer,1,0,636.6722,276.1111,3,234
+BUYER,Taiwan,Business Builder,2,0,4504.8268,1483.7106,7,3110.242
+BUYER,Malaysia,Business Builder,1,0,906.2121,4180.9091,0,564.0907
+BUYER,South Africa,Business Builder,1,0,403.75,955,8,175
+BUYER,United States,Distributor,4,0,2864,1956.32,44,2481.1
+BUYER,Germany,Distributor,2,0,1408.4,1457.57,14,1154.8
+BUYER,United States,Business Builder,6,0,5302.73,6404.64,51,4567.6
+BUYER,Australia,Business Builder,2,0,1250.25,5668.18,8,648
+BUYER,Malaysia,Business Builder,1,0,4126.0606,3755.7576,0,2802.727
+BUYER,United States,Distributor,1,0,379.99,924.75,6,263.7
+BUYER,New Zealand,Business Builder,0,0,0.2,1371.064,0,0
+BUYER,United States,Business Builder,4,0,2835.36,2215.09,22,2194.3
+BUYER,Philippines,Business Builder,1,0,2836.6722,24990,11,1818
+BUYER,Canada,Business Builder,1,0,1462.44,3852.08,13,1008
+BUYER,Philippines,Wholesale Buyer,0,0,0.0056,95.5556,0,0
+BUYER,Germany,Business Builder,1,0,1947.1333,4615.68,0,1338.5591
+BUYER,United States,Distributor,2,0,561.91,1236.74,5,439.5
+BUYER,Colombia,Business Builder,0,0,1522.426,10255.6673,13,999.82
+BUYER,United States,Business Builder,2,0,1075.53,951.51,14,715.3
+BUYER,United States,Distributor,1,0,501.71,1606.02,4,275.8
+BUYER,Australia,Business Builder,0,1,0.25,399,0,0
+BUYER,United States,Business Builder,2,0,940.73,1102.68,22,539.5
+BUYER,South Africa,Business Builder,1,0,671.2513,1685.625,8,201.275
+BUYER,Philippines,Business Builder,4,0,1035.5556,2182.7778,8,474
+BUYER,Puerto Rico,Business Builder,1,0,0,0,23,1563.6
+BUYER,Australia,Business Builder,0,0,0.25,91,0,0
+BUYER,Mexico,Business Builder,0,0,308.2885,202.3062,3,259.004
+BUYER,Philippines,Business Builder,2,0,2442.7773,4976.1111,25,1530
+BUYER,Philippines,Business Builder,2,0,847.7778,1476.1111,6,378
+BUYER,Taiwan,Business Builder,0,0,449.3548,6392.9032,2,406.4516
+BUYER,South Africa,Business Builder,1,0,643.75,864.375,8,201.255
+BUYER,Philippines,Business Builder,1,0,774.4442,2434.5418,5,330
+BUYER,South Africa,Business Builder,3,0,820.0013,1403.1263,12,288.79
+BUYER,Puerto Rico,Distributor,1,0,0,0,8,451.6
+BUYER,Philippines,Distributor,0,0,19551.41,30500,6,288
+BUYER,United States,Distributor,1,0,764.99,1264.36,10,539.5
+BUYER,Malaysia,Business Builder,1,1,1528.4848,5042.4242,0,1119.09
+BUYER,Australia,Business Builder,1,0,1809.75,10154.86,31,1064
+BUYER,United States,Distributor,1,1,3779.31,404.64,8,2551.6
+BUYER,United States,Distributor,5,0,2197.05,4758.23,28,2044.8
+BUYER,Philippines,Business Builder,1,0,1436.6664,2680.5556,10,810
+BUYER,South Africa,Business Builder,2,0,1318.125,2408.3,25,535.085
+BUYER,Philippines,Distributor,1,0,232.7778,361.1111,3,144
+BUYER,Malaysia,Business Builder,1,0,393.9394,3787.8788,0,110
+BUYER,South Africa,Business Builder,0,0,0,60.625,0,0
+BUYER,South Africa,Business Builder,0,0,0,143.125,0,0
+BUYER,United States,Distributor,1,1,640.65,2057.7,6,363.7
+BUYER,Australia,Business Builder,1,0,4785.25,4228.93,72,3016
+BUYER,Australia,Business Builder,1,0,2128.25,6923.36,38,1288
+BUYER,Germany,Business Builder,1,0,967.88,2247.65,10,546.55
+BUYER,South Africa,Business Builder,6,0,5722.5063,14161.7575,115,2576.725
+BUYER,United States,Business Builder,3,0,1618.88,12237.91,7,963.7
+BUYER,Mexico,Business Builder,0,0,1871.2023,2867.1454,15,1416.154
+BUYER,United States,Business Builder,5,0,10412.58,24441.6,12,9127.4
+BUYER,United States,Business Builder,3,0,6398.91,17161.98,8,363.7
+BUYER,South Africa,Business Builder,3,0,1316.875,2583.1275,32,551.32
+BUYER,Canada,Business Builder,1,0,653.17,3648.05,12,432
+BUYER,United States,Distributor,1,0,3612.54,3053.52,12,2727.4
+BUYER,Germany,Business Builder,2,0,750.32,1880.64,3,451.6
+BUYER,United States,Distributor,1,0,3485.13,119626.01,4,2375.8
+BUYER,South Africa,Distributor,1,0,18.75,458.125,0,0
+BUYER,United States,Distributor,1,0,841.35,2135.49,12,627.4
+BUYER,Puerto Rico,Business Builder,2,0,0,0,10,539.5
+BUYER,South Africa,Distributor,1,0,142.5,548.125,3,65.625
+BUYER,Germany,Distributor,1,1,486.73,2078.82,4,376.85
+BUYER,South Africa,Distributor,1,0,670,615.6263,15,320.525
+BUYER,Australia,Business Builder,1,0,945,9293.11,12,456
+BUYER,United States,Customer,0,0,546.98,410.23,8,351.6
+BUYER,United States,Distributor,2,0,2030.57,6256.57,4,1654.8
+BUYER,United States,Business Builder,5,0,3024.08,5327.45,36,2503.3
+BUYER,South Africa,Distributor,1,0,1034.375,1141.875,25,547
+BUYER,New Zealand,Business Builder,1,0,971.568,6312.64,10,393.55
+BUYER,Australia,Business Builder,1,0,945,3204.22,12,456
+BUYER,Australia,Business Builder,1,0,1044,1585.5,14,520
+BUYER,South Africa,Distributor,1,0,143.125,458.75,3,65.63
+BUYER,South Africa,Business Builder,1,0,475.625,936.8763,4,113.76
+BUYER,United States,Business Builder,1,0,1246.66,4490.54,19,923.05
+BUYER,United States,Distributor,1,0,3045,1005.45,0,2200
+BUYER,Taiwan,Business Builder,1,0,890.1626,4530.9697,8,572.056
+BUYER,Australia,Business Builder,1,0,597,107,4,200
+BUYER,Germany,Distributor,1,0,598.78,998.53,4,275.8
+BUYER,United States,Business Builder,1,0,633.36,815.93,6,363.7
+BUYER,Germany,Business Builder,1,0,517.05,1099.1,4,275.8
+BUYER,United States,Business Builder,1,0,4030.06,664.18,5,3079
+BUYER,Australia,Business Builder,1,0,807,2828,8,328
+BUYER,United States,Business Builder,2,0,972.3,1914.39,13,671.35
+BUYER,Germany,Distributor,1,0,536.71,5127.4,4,275.8
+BUYER,Philippines,Wholesale Buyer,1,0,433.3333,78.3333,0,90
+BUYER,United States,Distributor,2,0,826.59,3561.9,9,495.55
+BUYER,United States,Business Builder,1,0,2961.34,15628,36,2182.2
+BUYER,Australia,Business Builder,2,0,3778.82,2510.03,4,1962
+BUYER,Canada,Distributor,1,0,726.18,4299.75,6,299.34
+BUYER,Philippines,Wholesale Buyer,4,0,619.4444,1815.5556,2,186
+BUYER,Taiwan,Business Builder,1,0,2435.3229,3440.1613,8,2025.2065
+BUYER,Australia,Business Builder,1,0,1052,3735,14,520
+BUYER,New Zealand,Business Builder,1,0,2083.968,11738.312,31,1084.513
+BUYER,South Africa,Business Builder,2,0,638.125,2013.75,8,201.25
+BUYER,United States,Business Builder,4,0,1495.6,2354.89,5,1022.95
+BUYER,South Africa,Business Builder,1,0,1178.1263,2635.6263,25,435.9
+BUYER,Mexico,Business Builder,0,0,372.4431,475.3846,2,143.154
+BUYER,United States,Distributor,1,0,1074.39,3406.62,0,600
+BUYER,Germany,Business Builder,1,0,547.33,6327.79,2,453.6
+BUYER,Malaysia,Business Builder,1,0,563.9394,3183.0303,0,261.3635
+BUYER,United States,Distributor,2,0,409.98,894.9,2,307.65
+BUYER,Taiwan,Business Builder,1,0,4365.7442,1638.5587,8,3448.328
+BUYER,Taiwan,Business Builder,2,0,4635.809,2585.6461,2,2725.514
+BUYER,Malaysia,Business Builder,1,0,513.3333,4412.7273,0,210.909
+BUYER,Australia,Business Builder,1,0,945,6460.43,12,456
+BUYER,South Africa,Business Builder,3,0,2218.125,2900.625,33,977.585
+BUYER,United States,Distributor,2,0,514.67,765.05,4,263.8
+BUYER,Taiwan,Business Builder,1,0,655.4845,1230.6452,4,341.028
+BUYER,Malaysia,Business Builder,3,0,4690.4545,2198.5242,0,3064.0905
+BUYER,Malaysia,Business Builder,1,0,1011.8182,6368.4848,0,664.9997
+BUYER,Puerto Rico,Distributor,3,1,0,0,10,1139.5
+BUYER,United States,Distributor,1,0,1303.3,2255.49,20,979
+BUYER,South Africa,Business Builder,1,0,838.125,993.1263,20,429.94
+BUYER,Malaysia,Business Builder,2,0,802.5758,1881.7273,0,463.1815
+BUYER,South Africa,Distributor,0,0,0,186.875,0,0
+BUYER,United States,Distributor,4,2,880.51,279.52,3,791.1
+BUYER,South Africa,Business Builder,3,0,5148.125,11009.3775,94,2382.215
+BUYER,South Africa,Business Builder,1,0,503.125,692.5013,4,113.75
+BUYER,United States,Distributor,1,0,547.28,999.96,4,275.8
+BUYER,Malaysia,Business Builder,1,0,904.5455,4331.0606,0,564.0905
+BUYER,Philippines,Business Builder,2,0,970.5556,4146.1111,8,474
+BUYER,South Africa,Business Builder,2,0,670.625,2245.0013,8,201.28
+BUYER,United States,Business Builder,1,0,711.35,2362.06,8,451.6
+BUYER,United States,Distributor,4,0,3987.39,1268.16,13,2822.35
+BUYER,South Africa,Business Builder,6,0,1876.875,2119.375,30,687.88
+BUYER,United States,Distributor,3,0,1594.44,697.84,5,1186.75
+BUYER,New Zealand,Wholesale Buyer,1,0,4369.872,2250.832,12,2169.036
+BUYER,Malaysia,Business Builder,1,0,450.6061,2586.6667,0,160.4545
+BUYER,South Africa,Distributor,0,0,0,115.625,0,0
+BUYER,Taiwan,Business Builder,1,0,4344.3619,1470.001,4,2731.028
+BUYER,Malaysia,Business Builder,2,0,4855.7576,15138.7879,0,3215.4542
+BUYER,Malaysia,Business Builder,1,0,1016.3636,15420,0,664.9997
+BUYER,Australia,Distributor,1,0,498,-490,2,136
+BUYER,Malaysia,Business Builder,1,1,573.4848,5550,0,251.3635
+BUYER,South Africa,Business Builder,2,0,327.5,125.625,0,26.25
+BUYER,United States,Distributor,1,0,407.83,1852.47,2,187.9
+BUYER,United States,Business Builder,1,0,3607.53,4999.87,9,2535.55
+BUYER,United States,Distributor,1,0,44.75,704.46,0,0
+BUYER,South Africa,Distributor,1,0,18.75,0,0,0
+BUYER,Australia,Wholesale Buyer,1,0,235.25,1865,4,128
+BUYER,Philippines,Business Builder,1,1,1768.8889,19486.6667,5,1050
+BUYER,Philippines,Wholesale Buyer,0,0,0,35,0,0
+BUYER,Taiwan,Wholesale Buyer,0,0,183.8713,1238.7097,3,173.271
+BUYER,Taiwan,Business Builder,1,2,523.2258,2990.0026,2,225.514
+BUYER,Taiwan,Business Builder,1,0,523.2258,1667.0968,2,225.514
+BUYER,Philippines,Business Builder,1,0,576.1111,1230.5556,2,186
+BUYER,United States,Distributor,1,0,360.89,-229.54,1,143.95
+BUYER,United States,Business Builder,1,2,841.35,3918.86,12,627.4
+BUYER,South Africa,Business Builder,2,0,1162.5,1466.875,21,462.84
+BUYER,United States,Business Builder,6,0,1441.46,3254.34,21,967
+BUYER,United States,Business Builder,1,0,407.83,2755.16,2,187.9
+BUYER,Australia,Business Builder,1,0,680,2138.5,6,264
+BUYER,Taiwan,Business Builder,0,0,363.871,1225.8065,1,348.3871
+BUYER,Malaysia,Business Builder,1,0,791.5152,5085.303,0,463.1817
+BUYER,Malaysia,Business Builder,1,0,393.9394,3787.8788,0,110
+BUYER,South Africa,Business Builder,4,0,1612.5,5641.8763,31,704.53
+BUYER,Mexico,Business Builder,0,2,292.1538,429.6085,0,76.154
+BUYER,United States,Business Builder,1,0,1109.17,1466.57,2,687.9
+BUYER,Jamaica,Customer,5,0,565.7,0,10,113.4
+BUYER,United States,Business Builder,2,0,712.7,5752.75,6,370.75
+BUYER,Australia,Business Builder,1,2,880,7081.18,5,392
+BUYER,South Africa,Business Builder,2,0,405,2193.1263,2,62.375
+BUYER,United States,Business Builder,1,1,360.89,1128.12,1,143.95
+BUYER,United States,Business Builder,2,2,1020,1770.44,1,643.95
+BUYER,United States,Business Builder,2,2,563.03,1002.69,4,275.8
+BUYER,United States,Distributor,1,0,360.89,1187.2,1,143.95
+BUYER,Malaysia,Business Builder,1,2,456.6667,1834.697,0,160.4545
+BUYER,Malaysia,Business Builder,1,0,456.6667,4216.9697,0,160.4545
+BUYER,Jamaica,Business Builder,4,2,2028.1,485.94,27,392.4
+BUYER,United States,Distributor,2,0,1622.51,2093.51,11,1403
+BUYER,Mexico,Business Builder,0,0,292.1538,516.53,0,76.154
+BUYER,Taiwan,Business Builder,1,2,4101.6155,3161.2906,0,2500
+BUYER,Australia,Business Builder,1,0,399,450.75,0,72
+BUYER,United States,Distributor,1,0,535.29,1039.54,4,275.8
+BUYER,South Africa,Business Builder,0,0,0,310.625,0,0
+BUYER,South Africa,Business Builder,1,1,750,2449.375,11,251.65
+BUYER,United States,Business Builder,2,2,589.18,3325.5,4,275.8
+BUYER,United States,Distributor,1,0,328.16,1007.94,0,100
+BUYER,Mexico,Business Builder,0,0,332.2985,906.1446,1,109.654
+BUYER,Philippines,Business Builder,2,0,939.9996,3394.4442,7,426
+BUYER,Puerto Rico,Distributor,1,0,0,0,1,143.95
+BUYER,Mexico,Business Builder,0,0,569.9908,923.4577,2,310.654
+BUYER,United States,Distributor,2,0,1056.69,2465.1,0,700
+BUYER,Malaysia,Business Builder,1,0,3787.8788,2306.0606,0,2500
+BUYER,Malaysia,Business Builder,1,1,452.5758,3082.2727,0,160.4545
+BUYER,Australia,Business Builder,1,0,498,3764.93,2,136
+BUYER,Taiwan,Business Builder,1,1,1292.2581,2010.6452,1,657.757
+BUYER,South Africa,Business Builder,3,0,2360,2688.125,19,954.45
+BUYER,Taiwan,Business Builder,1,0,522.2584,1989.6781,2,225.514
+BUYER,South Africa,Business Builder,1,0,423.75,536.2513,2,70
+BUYER,South Africa,Distributor,1,0,403.75,2370.6275,5,218.75
+BUYER,United States,Distributor,1,0,341.43,3518.58,0,100
+BUYER,United States,Distributor,4,1,599.5,559.04,1,363.7
+BUYER,South Africa,Distributor,0,0,744.375,940.0013,17,341.425
+BUYER,United States,Business Builder,2,0,889.41,2232.78,12,579.4
+BUYER,Mexico,Distributor,0,1,189.9231,4760.0746,4,134
+BUYER,United States,Business Builder,1,0,515.98,1839.9,4,275.8
+BUYER,Malaysia,Business Builder,1,0,516.5152,3484.0909,0,210.909
+BUYER,Malaysia,Business Builder,1,0,393.9394,9641.5152,0,110
+BUYER,South Africa,Distributor,1,1,75.625,213.75,1,21.88
+BUYER,United States,Distributor,3,0,1075.15,883.38,8,539.5
+BUYER,United States,Business Builder,1,0,572.81,2775.15,12,527.4
+BUYER,Australia,Wholesale Buyer,1,2,581,5170.43,4,200
+BUYER,South Africa,Distributor,2,0,803.125,589.375,19,415.66
+BUYER,United States,Distributor,1,0,572.81,2827.89,12,527.4
+BUYER,United States,Business Builder,1,0,538.53,4489.95,4,275.8
+BUYER,South Africa,Business Builder,1,0,1564.375,3733.125,31,658.7
+BUYER,Philippines,Wholesale Buyer,2,0,508.8889,480.5556,1,138
+BUYER,South Africa,Business Builder,1,0,510,852.5013,4,113.76
+BUYER,United States,Distributor,2,0,1254.37,2346.62,2,895.65
+BUYER,United States,Distributor,2,0,1406.82,498.89,0,700
+BUYER,United States,Distributor,1,0,1564.95,1841.9,9,1154.8
+BUYER,United States,Business Builder,1,0,446.53,1755.93,2,187.9
+BUYER,Australia,Business Builder,1,1,3379.82,2135.25,4,1890
+BUYER,Philippines,Business Builder,1,0,501.1111,3606.6667,1,138
+BUYER,Philippines,Business Builder,1,0,843.3333,1992.2222,6,378
+BUYER,South Africa,Distributor,0,1,166.25,1548.7513,3,65.625
+BUYER,Australia,Business Builder,1,0,506,2424,2,136
+BUYER,South Africa,Business Builder,1,2,60.625,290.625,1,21.875
+BUYER,United States,Business Builder,2,1,859.45,1225.07,5,495.55
+BUYER,United States,Business Builder,1,0,386.16,4376.92,1,143.95
+BUYER,United States,Distributor,0,1,0,633.74,0,0
+BUYER,United Kingdom,Business Builder,1,0,318.4,795.568,0,80
+BUYER,United States,Distributor,1,0,309.38,806.92,6,263.7
+BUYER,United States,Distributor,1,0,343.78,1078.07,0,100
+BUYER,United States,Distributor,1,0,665.55,-585.58,8,451.6
+BUYER,Malaysia,Business Builder,1,0,786.9697,4573.3333,0,463.1817
+BUYER,Malaysia,Business Builder,1,0,83.9394,3959.2424,0,50.4545
+BUYER,South Africa,Business Builder,1,0,391.875,3009.375,2,70.01
+BUYER,Australia,Business Builder,1,0,626.5,3932.68,5,232
+BUYER,United States,Distributor,1,0,334.3,1937.3,7,283.65
+BUYER,United States,Distributor,2,0,1036.05,3528.06,9,715.3
+BUYER,United States,Business Builder,0,0,0,327.05,0,0
+BUYER,Philippines,Wholesale Buyer,1,0,163.3333,477.2222,2,96
+BUYER,South Africa,Business Builder,1,0,551.875,7323.625,6,157.5
+BUYER,Guatemala,MarketPending,0,0,0.25,283.09,0,0
+BUYER,United States,Distributor,0,0,1379.31,279.52,16,1142.7
+BUYER,Canada,Distributor,1,0,156.1,814.67,2,72
+BUYER,Canada,Business Builder,3,1,670.92,1902.42,3,191.34
+BUYER,South Africa,Business Builder,1,0,1271.875,4165.625,12,480
+BUYER,South Africa,Business Builder,1,0,841.25,3485,14,286.775
+BUYER,Canada,Distributor,1,0,355.8,1156,8,303.6
+BUYER,United States,Distributor,1,0,335.93,1810.69,0,100
+BUYER,Malaysia,Business Builder,1,0,393.9394,744.2424,0,110
+BUYER,Australia,Business Builder,1,0,498,1536.5,2,136
+BUYER,South Africa,Business Builder,1,0,1100.625,12843.25,6,425.03
+BUYER,South Africa,Business Builder,1,0,513.125,4171.2563,5,135.635
+BUYER,United States,Distributor,1,0,438.59,-77.16,2,187.9
+BUYER,United States,Distributor,1,0,525.9,2903.67,4,275.8
+BUYER,United States,Distributor,3,0,4122.91,4131.37,4,2947.25
+BUYER,Malaysia,Distributor,1,0,1037.5758,6298.4848,0,908.1812
+BUYER,United States,Distributor,1,0,335.55,470.61,0,100
+BUYER,United States,Distributor,1,0,720.19,3718.94,8,451.6
+BUYER,Australia,Business Builder,1,1,1143.25,4700.18,14,768
+BUYER,South Africa,Business Builder,1,0,391.875,1072.5,2,70
+BUYER,Canada,Wholesale Buyer,1,1,401.94,1386.59,1,119.34
+BUYER,Malaysia,Business Builder,2,0,4190.9091,1837.8788,0,2610
+BUYER,United States,Distributor,1,0,410.19,2654.56,1,131.95
+BUYER,Malaysia,Business Builder,1,0,3787.8788,1606.0606,0,2500
+BUYER,New Zealand,Business Builder,1,1,571.328,-562.32,2,130.326
+NOT BUYER,Australia,Business Builder,1,1,498,2231.25,2,136
+NOT BUYER,Ghana,MarketPending,0,3,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,5,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,2,400,336.3636,0,110
+NOT BUYER,United States,Distributor,2,0,0,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,4,393.9394,1126.6667,0,110
+NOT BUYER,Australia,Distributor,1,0,229.25,495,4,128
+NOT BUYER,United States,Distributor,2,3,0,0,0,0
+NOT BUYER,South Africa,Distributor,1,0,140.625,0,3,65.64
+NOT BUYER,United States,Distributor,2,6,0,0,0,0
+NOT BUYER,South Africa,Distributor,1,0,221.875,0,5,109.385
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,6,0.25,0,0,0
+NOT BUYER,Australia,Distributor,1,0,229.25,130.25,4,128
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,South Africa,Business Builder,1,1,310.625,0,0,26.25
+NOT BUYER,Austria,EU Virtual Distributor,0,2,62.92,319.3333,1,45.88
+NOT BUYER,Ghana,MarketPending,0,1,0,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Australia,Business Builder,1,0,945,2189.25,12,456
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,United States,Distributor,1,3,396.49,0,8,351.6
+NOT BUYER,United States,Customer,0,0,0,0,0,0
+NOT BUYER,Ghana,MarketPending,0,2,0.25,0,0,0
+NOT BUYER,United Kingdom,Distributor,1,6,155.824,613.44,2,95.84
+NOT BUYER,South Africa,Business Builder,1,0,383.75,637.5038,1,48.125
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,5,0.25,0,0,0
+NOT BUYER,Colombia,Business Builder,0,0,659.732,0,6,327.36
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,3,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Mexico,Business Builder,0,4,332.2985,0,1,109.654
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,United States,Distributor,1,0,441.45,92.89,2,187.9
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,United States,Customer,0,0,66.9,0,1,43.95
+NOT BUYER,United States,Customer,0,0,170.31,0,3,131.85
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,3,0.25,0,0,0
+NOT BUYER,United States,Business Builder,3,0,428.23,897.81,2,187.9
+NOT BUYER,United States,Customer,0,0,282.04,289.51,2,184
+NOT BUYER,Mexico,Distributor,0,0,62.7885,0,1,33.5
+NOT BUYER,United States,Business Builder,1,0,373.02,422.46,1,143.95
+NOT BUYER,United States,Wholesale Buyer,1,3,313.95,0,0,100
+NOT BUYER,United States,Distributor,0,2,0,0,0,0
+NOT BUYER,United Kingdom,Business Builder,2,0,4245.088,680.944,1,2687.92
+NOT BUYER,United States,Distributor,1,1,984.74,7.38,1,643.95
+NOT BUYER,United States,Customer,0,2,209.78,0,4,175.8
+NOT BUYER,United States,Distributor,1,0,423.47,756.64,8,351.6
+NOT BUYER,Germany,Business Builder,1,0,426.6667,1395.16,0,93.3333
+NOT BUYER,United States,Wholesale Buyer,1,0,482.95,869.02,3,231.85
+NOT BUYER,Puerto Rico,Distributor,1,0,0,0,8,351.6
+NOT BUYER,South Africa,Distributor,1,0,181.875,0,4,87.5
+NOT BUYER,United States,Business Builder,1,0,360.89,563.28,1,143.95
+NOT BUYER,Colombia,Distributor,0,0,131.964,0,2,79.12
+NOT BUYER,United States,Customer,0,0,114.34,0,2,75.9
+NOT BUYER,United States,Distributor,1,1,230.46,688.34,4,175.8
+NOT BUYER,Canada,Customer,0,1,0,0,0,0
+NOT BUYER,Colombia,Business Builder,0,0,350.84,0,0,90
+NOT BUYER,United States,Customer,0,1,277.39,697.2,5,219.75
+NOT BUYER,New Zealand,Wholesale Buyer,1,1,206.28,747.192,3,98.709
+NOT BUYER,United States,Customer,0,0,0,0,0,0
+NOT BUYER,Australia,Distributor,1,0,31.25,0,0,0
+NOT BUYER,United States,Customer,0,0,73.26,0,1,43.95
+NOT BUYER,Australia,Customer,0,0,58,0,1,32
+NOT BUYER,Australia,Distributor,1,1,407.25,669,8,256
+NOT BUYER,Australia,Distributor,1,0,235.25,0,4,128
+NOT BUYER,United States,Distributor,1,0,46.05,0,0,0
+NOT BUYER,United States,Distributor,1,0,453.78,1391.37,3,231.85
+NOT BUYER,United States,Customer,0,1,115.94,695.64,2,87.9
+NOT BUYER,Indonesia,MarketPending,0,4,0.25,0,0,0
+NOT BUYER,Australia,Business Builder,1,0,506,3383.75,2,136
+NOT BUYER,Malaysia,Business Builder,1,0,400,0,0,110
+NOT BUYER,South Africa,Distributor,1,3,101.25,410,2,43.75
+NOT BUYER,Australia,Wholesale Buyer,1,0,498,831.25,2,136
+NOT BUYER,Malaysia,Business Builder,1,4,400,0,0,110
+NOT BUYER,Malaysia,Business Builder,1,0,396.5152,113.3333,0,110
+NOT BUYER,Malaysia,Business Builder,1,0,396.5152,0,0,100
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,0,0,110
+NOT BUYER,Malaysia,Business Builder,1,0,455.1515,234.5455,0,160.4545
+NOT BUYER,Taiwan,Distributor,0,0,185.9681,122.5806,3,173.271
+NOT BUYER,South Africa,Business Builder,1,0,310,0,0,26.25
+NOT BUYER,Malaysia,Business Builder,1,0,506.6667,226.0606,0,210.909
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,56.6667,0,110
+NOT BUYER,South Africa,Distributor,1,0,101.25,898.7538,2,43.75
+NOT BUYER,Malaysia,Business Builder,1,1,452.5758,410.4545,0,160.4545
+NOT BUYER,South Africa,Business Builder,1,0,448.75,533.1275,9,91.89
+NOT BUYER,Canada,Distributor,2,0,1118.14,620.04,4,587.34
+NOT BUYER,Malaysia,Business Builder,1,3,3818.9394,0,0,2500
+NOT BUYER,South Africa,Business Builder,1,0,940,587.5,2,337.51
+NOT BUYER,Malaysia,Business Builder,1,0,459.8485,179.5455,0,160.4545
+NOT BUYER,South Africa,Business Builder,1,0,351.875,736.25,1,48.125
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,3,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Taiwan,Distributor,0,0,122.2584,0,2,115.514
+NOT BUYER,South Africa,Business Builder,1,1,310,0,0,26.25
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,3,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,2,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Australia,Business Builder,1,0,945,273,12,456
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,4,393.9394,505.7576,0,110
+NOT BUYER,South Africa,Business Builder,1,5,327.5,0,0,26.25
+NOT BUYER,Australia,Distributor,1,0,213.25,0,4,128
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Philippines,Wholesale Buyer,1,0,433.3333,0,0,90
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,South Africa,Distributor,1,0,168.75,0,4,64.63
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,56.6667,0,110
+NOT BUYER,Ghana,MarketPending,0,4,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,623.3333,0,110
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,1466.3636,0,110
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Spain,Wholesale Buyer,0,1,0.3333,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,1,393.9394,0,0,110
+NOT BUYER,Ghana,MarketPending,0,4,0.25,0,0,0
+NOT BUYER,Malaysia,Distributor,1,0,196.0606,0,0,151.3635
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Bulgaria,EU Virtual Distributor,0,0,0.3333,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,480.9091,508.3333,0,187.7272
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,56.6667,0,110
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Australia,Business Builder,1,0,498,2887.25,2,136
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Australia,Business Builder,1,2,298.75,1845.25,2,64
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,United States,Distributor,1,0,138.77,563.28,2,87.9
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,United States,Customer,0,4,66.9,0,1,43.95
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Mexico,Customer,0,0,53.8462,0,1,33.5
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,United States,Customer,0,1,172.78,264.7,3,131.85
+NOT BUYER,United States,Customer,0,0,83.36,500.16,2,63.9
+NOT BUYER,Mexico,Business Builder,0,0,364.1354,723.8662,2,143.154
+NOT BUYER,United States,Customer,0,0,434.76,0,8,351.6
+NOT BUYER,Zambia,MarketPending,0,4,0,0,0,0
+NOT BUYER,Mexico,Customer,0,4,112.6915,291.9208,2,67
+NOT BUYER,Mexico,Distributor,0,0,189.9231,931.5323,4,134
+NOT BUYER,Peru,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Colombia,Business Builder,0,0,346.84,0,0,90
+NOT BUYER,United States,Distributor,1,0,360.89,563.28,1,143.95
+NOT BUYER,Spain,Wholesale Buyer,0,0,0.3333,0,0,0
+NOT BUYER,Spain,Wholesale Buyer,0,0,0.3333,0,0,0
+NOT BUYER,Mexico,Customer,0,0,0,0,0,0
+NOT BUYER,Canada,Distributor,1,0,511.2,120.68,2,155.335
+NOT BUYER,Armenia,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Germany,Customer,0,2,251.9867,0,0,143.6799
+NOT BUYER,Ivory Coast (Cote D Ivoire),MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ivory Coast (Cote D Ivoire),MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Canada,Customer,0,5,0,0,0,0
+NOT BUYER,Puerto Rico,Customer,0,0,0,0,0,0
+NOT BUYER,Spain,Wholesale Buyer,0,0,256.8933,1439.6,4,183.52
+NOT BUYER,Canada,Distributor,1,0,174.5,60.41,2,72
+NOT BUYER,Malaysia,Business Builder,1,0,736.3636,672.7273,0,402.727
+NOT BUYER,Taiwan,Business Builder,1,0,1225.8065,247.5813,0,600
+NOT BUYER,Taiwan,Business Builder,1,0,404.8387,0,0,110
+NOT BUYER,Taiwan,Business Builder,1,1,1225.8065,736.4516,0,600
+NOT BUYER,Taiwan,Distributor,0,0,64.6774,0,1,57.757
+NOT BUYER,Australia,Business Builder,1,1,498,944.25,2,136
+NOT BUYER,Australia,Business Builder,1,0,581,1456,4,200
+NOT BUYER,Australia,Business Builder,1,0,498,289,2,136
+NOT BUYER,Philippines,Wholesale Buyer,2,0,441.1111,0,0,90
+NOT BUYER,Canada,Customer,0,0,244.46,1424.76,4,144
+NOT BUYER,Taiwan,Business Builder,1,0,404.8387,0,0,110
+NOT BUYER,Australia,Distributor,1,0,238.25,1188,4,128
+NOT BUYER,Taiwan,Business Builder,1,0,400,522.5806,0,110
+NOT BUYER,South Africa,Business Builder,1,0,391.875,100,2,70
+NOT BUYER,South Africa,Business Builder,1,1,310.625,162.5,0,26.25
+NOT BUYER,Philippines,Wholesale Buyer,1,0,433.3333,0,0,90
+NOT BUYER,Australia,Distributor,1,0,395.25,728,8,256
+NOT BUYER,Australia,Wholesale Buyer,1,2,498,1271,2,136
+NOT BUYER,United States,Business Builder,2,0,0,0,0,0
+NOT BUYER,Germany,Distributor,2,0,0,0,0,0
+NOT BUYER,United States,Distributor,2,1,0,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,624.2424,546.8182,0,311.818
+NOT BUYER,Austria,EU Virtual Distributor,0,0,125.5067,63.8667,2,91.76
+NOT BUYER,South Africa,Business Builder,1,2,859.375,0,0,293.75
+NOT BUYER,South Africa,Distributor,1,0,100,0,2,43.75
+NOT BUYER,Austria,EU Virtual Distributor,0,2,374.4933,3039.76,6,275.28
+NOT BUYER,South Africa,Distributor,1,0,211.875,350.6263,5,101.75
+NOT BUYER,South Africa,Business Builder,1,0,858.75,81.25,0,293.75
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,South Africa,Distributor,1,0,196.875,538.7525,4,87.51
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Malaysia,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Customer,0,0,0,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,United States,Distributor,1,0,231.46,92.89,4,175.8
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,South Africa,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,South Africa,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,South Africa,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Italy,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,South Africa,Business Builder,1,0,1110.625,377.5,6,425.03
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Germany,Customer,0,0,169.32,0,0,95.7866
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,3,0.25,0,0,0
+NOT BUYER,Mexico,Distributor,0,0,104.6162,0,2,67
+NOT BUYER,Germany,Business Builder,1,1,1043.2667,2425.1067,0,572.2665
+NOT BUYER,Mexico,Business Builder,0,0,599.8462,2522.4615,8,344.154
+NOT BUYER,United States,Customer,0,1,56.94,0,1,43.95
+NOT BUYER,Switzerland,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Mexico,Customer,0,1,53.8462,0,1,33.5
+NOT BUYER,Colombia,Customer,0,0,51.6713,100.3426,1,39.56
+NOT BUYER,Canada,Distributor,1,1,359.32,1083.04,6,216
+NOT BUYER,Austria,EU Virtual Distributor,0,0,125.5067,127.7333,2,91.76
+NOT BUYER,Zambia,MarketPending,0,1,0,0,0,0
+NOT BUYER,Canada,Wholesale Buyer,2,0,1219.05,1446.12,9,587.335
+NOT BUYER,United States,Distributor,1,0,441.82,0,2,187.9
+NOT BUYER,United States,Business Builder,1,1,442.89,551.87,2,187.9
+NOT BUYER,Canada,Distributor,1,0,477.05,1315.43,2,155.335
+NOT BUYER,Australia,Business Builder,1,0,452.5,138.25,1,104
+NOT BUYER,United States,Business Builder,1,1,534.09,198.54,4,275.8
+NOT BUYER,Canada,Distributor,1,0,363.26,0,0,83.335
+NOT BUYER,Turkey,MarketPending,0,3,0.25,0,0,0
+NOT BUYER,United States,Distributor,1,2,276.59,231.24,2,184
+NOT BUYER,Mexico,Distributor,0,0,69.4708,0,1,33.5
+NOT BUYER,Canada,Distributor,1,0,371.62,2194.71,0,83.34
+NOT BUYER,Philippines,Distributor,1,2,107.7778,297.7778,1,48
+NOT BUYER,Australia,Customer,0,1,190,0,3,96
+NOT BUYER,Canada,Distributor,1,0,504.38,226.9,2,155.34
+NOT BUYER,Canada,Customer,0,0,290.42,435.63,4,144
+NOT BUYER,Canada,Distributor,1,1,477.05,1101.79,2,155.34
+NOT BUYER,Canada,Customer,0,0,0,0,0,0
+NOT BUYER,New Zealand,Distributor,1,0,453.048,0,8,263.224
+NOT BUYER,New Zealand,Distributor,1,0,657.672,702.224,12,394.836
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,339.5455,0,110
+NOT BUYER,Australia,Customer,0,0,130,0,2,64
+NOT BUYER,Mexico,Business Builder,0,0,332.2985,0,1,109.654
+NOT BUYER,United States,Distributor,1,0,343.78,354.76,0,100
+NOT BUYER,Philippines,Wholesale Buyer,1,0,501.1111,405.5556,1,138
+NOT BUYER,Philippines,Wholesale Buyer,1,0,501.1111,135.5556,1,138
+NOT BUYER,Philippines,Wholesale Buyer,1,1,100.5556,145.5556,1,48
+NOT BUYER,Philippines,Wholesale Buyer,1,0,501.1111,135.5556,1,138
+NOT BUYER,Philippines,Wholesale Buyer,1,0,27.7778,135.5556,0,0
+NOT BUYER,Australia,Distributor,1,0,668.25,1563,14,448
+NOT BUYER,Australia,Distributor,1,0,229.25,1219.25,4,128
+NOT BUYER,Philippines,Wholesale Buyer,1,0,442.2167,0,0,90
+NOT BUYER,Philippines,Wholesale Buyer,1,0,901.1111,95.5556,7,426
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Australia,Customer,0,0,0,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,2,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,South Africa,Customer,0,0,0,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Hong Kong,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Philippines,Wholesale Buyer,1,0,767.7778,230,5,330
+NOT BUYER,Germany,Customer,0,0,145.99,0,1,92
+NOT BUYER,Germany,Business Builder,1,0,726.8933,1801.6,0,332.7998
+NOT BUYER,United States,Distributor,1,0,577.65,0,6,363.7
+NOT BUYER,United States,Customer,0,0,55.59,0,1,43.95
+NOT BUYER,South Africa,Customer,0,0,0,0,0,0
+NOT BUYER,United States,Customer,0,1,281.64,611.06,5,219.75
+NOT BUYER,Brazil,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,United States,Distributor,1,0,524.73,97.54,4,275.8
+NOT BUYER,Germany,Distributor,1,0,247.56,106.4,4,175.8
+NOT BUYER,Puerto Rico,Customer,0,0,0,0,0,0
+NOT BUYER,Philippines,Wholesale Buyer,1,1,767.7778,67.7778,5,330
+NOT BUYER,United States,Distributor,1,0,538.39,0,4,275.8
+NOT BUYER,United States,Distributor,1,0,445.61,475.54,2,187.9
+NOT BUYER,Germany,Business Builder,1,0,489.75,2927.08,4,275.8
+NOT BUYER,Canada,Customer,0,0,87.53,0,1,36
+NOT BUYER,United States,Customer,0,0,127.09,0,2,87.9
+NOT BUYER,United States,Wholesale Buyer,1,0,385.73,150.42,1,143.95
+NOT BUYER,Australia,Business Builder,2,0,498,1654,2,136
+NOT BUYER,Hong Kong,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Australia,Distributor,1,0,320.25,0,6,192
+NOT BUYER,Australia,Distributor,1,0,130.25,99,2,64
+NOT BUYER,Australia,Distributor,1,0,395.25,-81.9,8,256
+NOT BUYER,United States,Distributor,1,0,396.09,399.03,1,143.95
+NOT BUYER,United States,Distributor,1,0,396.09,18.62,1,143.95
+NOT BUYER,South Africa,Distributor,1,1,141.25,407.5,3,65.625
+NOT BUYER,South Africa,Distributor,1,0,181.25,285,4,87.5
+NOT BUYER,South Africa,Business Builder,1,0,351.875,836.25,1,48.125
+NOT BUYER,Australia,Distributor,1,3,229.25,99,4,128
+NOT BUYER,Australia,Distributor,1,0,395.25,0,8,256
+NOT BUYER,Australia,Customer,0,3,130,0,2,64
+NOT BUYER,South Africa,Distributor,0,0,0,0,0,0
+NOT BUYER,United Kingdom,Customer,0,2,85.504,0,1,47.92
+NOT BUYER,United Kingdom,Customer,0,0,0,0,0,0
+NOT BUYER,Australia,Business Builder,1,0,581,182,4,200
+NOT BUYER,Finland,Customer,0,0,0,0,0,0
+NOT BUYER,Thailand,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,South Africa,Distributor,1,0,341.25,2300.0013,8,175
+NOT BUYER,South Africa,Distributor,1,0,261.25,762.5,6,131.25
+NOT BUYER,United States,Customer,0,0,0,0,0,0
+NOT BUYER,South Africa,Distributor,1,0,60.625,832.5,1,21.875
+NOT BUYER,United States,Customer,0,0,153.2,0,2,87.9
+NOT BUYER,South Africa,Distributor,1,1,220.625,1278.125,5,109.375
+NOT BUYER,New Zealand,Customer,0,0,72.96,0,1,32.903
+NOT BUYER,Australia,Distributor,1,1,282.75,1976,5,160
+NOT BUYER,United States,Customer,0,2,273.89,0,4,175.8
+NOT BUYER,United States,Distributor,1,1,525.9,1435.08,4,275.8
+NOT BUYER,United States,Customer,0,0,138.15,0,2,87.9
+NOT BUYER,United States,Customer,0,0,0,0,0,0
+NOT BUYER,Mexico,Business Builder,0,0,529.8462,43.4608,1,277.154
+NOT BUYER,United States,Business Builder,1,2,385.72,602.04,1,143.95
+NOT BUYER,United States,Distributor,1,0,149.09,564.54,2,87.9
+NOT BUYER,Australia,Distributor,1,0,395.25,728,8,256
+NOT BUYER,Australia,Wholesale Buyer,1,0,395.25,2413.25,8,256
+NOT BUYER,Australia,Distributor,1,2,395.25,182,8,256
+NOT BUYER,Malaysia,Business Builder,1,0,456.6667,0,0,160.4545
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Malaysia,Distributor,1,1,703.1818,449.0909,0,605.4542
+NOT BUYER,Malaysia,Business Builder,1,1,393.9394,0,0,110
+NOT BUYER,Taiwan,Distributor,0,2,61.6129,0,1,57.757
+NOT BUYER,United States,Distributor,1,2,319.78,1221.25,3,131.85
+NOT BUYER,United States,Customer,0,0,70.68,676.58,1,43.95
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,0,0,110
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,613.871,1,57.757
+NOT BUYER,United States,Business Builder,1,0,331.89,542.38,0,100
+NOT BUYER,Taiwan,Business Builder,1,0,1230.6452,0,0,600
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,0,0,110
+NOT BUYER,New Zealand,Customer,0,0,0,0,0,0
+NOT BUYER,Taiwan,Business Builder,1,1,4096.7613,0,0,2500
+NOT BUYER,Malaysia,Business Builder,1,1,396.5152,56.6667,0,110
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,56.6667,0,110
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Taiwan,Distributor,0,1,242.5813,0,4,231.028
+NOT BUYER,Taiwan,Distributor,0,0,122.2584,0,2,115.514
+NOT BUYER,Malaysia,Business Builder,1,0,396.5152,566.0606,0,110
+NOT BUYER,Malaysia,Business Builder,1,0,740.1515,569.8485,0,412.727
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Australia,Customer,0,0,70,0,1,32
+NOT BUYER,Philippines,Wholesale Buyer,0,0,0,0,0,0
+NOT BUYER,Taiwan,Distributor,0,0,122.2584,0,2,115.514
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Malaysia,Distributor,1,0,27.2727,56.6667,0,0
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Malaysia,Distributor,1,0,27.2727,113.3333,0,0
+NOT BUYER,Taiwan,Distributor,0,1,122.2584,0,2,115.514
+NOT BUYER,Malaysia,Distributor,1,0,27.2727,113.3333,0,0
+NOT BUYER,Taiwan,Distributor,0,1,61.6129,0,1,57.757
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Taiwan,Distributor,0,1,61.6129,0,1,57.757
+NOT BUYER,United States,Distributor,1,0,147.05,101.64,2,87.9
+NOT BUYER,Taiwan,Distributor,0,1,61.6129,0,1,57.757
+NOT BUYER,Australia,Wholesale Buyer,1,0,304.25,2184,6,192
+NOT BUYER,Taiwan,Distributor,0,0,122.2584,0,2,115.514
+NOT BUYER,Malaysia,Business Builder,2,0,4238.4848,1240.6061,0,2660.4545
+NOT BUYER,Taiwan,Distributor,0,0,122.2584,0,2,115.514
+NOT BUYER,New Zealand,Business Builder,1,0,571.328,111.328,2,130.326
+NOT BUYER,Indonesia,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,400,0,0,110
+NOT BUYER,Malaysia,Distributor,1,0,196.0606,1348.4848,0,151.3635
+NOT BUYER,Malaysia,Business Builder,1,0,400,0,0,110
+NOT BUYER,South Africa,Business Builder,1,1,858.75,0,0,293.75
+NOT BUYER,Malaysia,Business Builder,1,0,400,0,0,110
+NOT BUYER,Malaysia,Business Builder,1,1,393.9394,0,0,110
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,0,0,110
+NOT BUYER,Taiwan,Distributor,0,2,122.2584,0,2,115.514
+NOT BUYER,Malaysia,Distributor,1,0,83.9394,0,0,50.4545
+NOT BUYER,Taiwan,Distributor,0,1,123.2258,61.6129,2,115.514
+NOT BUYER,Taiwan,Distributor,0,0,123.2258,245.4839,2,115.514
+NOT BUYER,Taiwan,Distributor,0,0,364.8397,0,6,346.542
+NOT BUYER,Australia,Distributor,1,0,395.25,1436.25,8,256
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,Taiwan,Business Builder,1,0,1225.8065,0,0,600
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,168.7879,0,110
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,0,0,110
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,0,0,110
+NOT BUYER,Taiwan,Business Builder,1,0,4101.6155,0,0,2500
+NOT BUYER,Australia,Business Builder,1,0,763,1092,8,328
+NOT BUYER,Malaysia,Business Builder,1,0,730.303,0,0,412.7272
+NOT BUYER,South Africa,Business Builder,1,0,858.75,0,0,293.75
+NOT BUYER,Taiwan,Distributor,0,0,123.2258,0,2,115.514
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,0,0,110
+NOT BUYER,Australia,Customer,0,0,108,50,2,64
+NOT BUYER,Taiwan,Distributor,0,0,190.0003,679.0329,3,173.271
+NOT BUYER,Malaysia,Business Builder,1,1,3844.5455,561.8182,0,2550.4545
+NOT BUYER,Australia,Customer,0,0,0,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,730.9091,112.7273,0,412.727
+NOT BUYER,Taiwan,Distributor,0,1,126.2903,61.2903,2,115.514
+NOT BUYER,Taiwan,Distributor,0,0,129.3548,0,2,115.514
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,0,0,110
+NOT BUYER,Taiwan,Distributor,0,1,61.6129,0,1,57.757
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,283.3333,0,110
+NOT BUYER,United Arab Emirates,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Distributor,1,0,308.1818,0,0,252.2725
+NOT BUYER,Australia,Distributor,1,0,577.25,910,12,384
+NOT BUYER,Taiwan,Distributor,0,1,123.2258,64.6774,2,115.514
+NOT BUYER,Taiwan,Distributor,0,0,123.2258,61.6129,2,115.514
+NOT BUYER,Taiwan,Distributor,0,0,242.5813,125.3229,4,231.028
+NOT BUYER,Taiwan,Distributor,0,1,123.2258,363.8716,2,115.514
+NOT BUYER,Malaysia,Business Builder,1,1,1515.7576,0,0,1119.0906
+NOT BUYER,Taiwan,Business Builder,1,0,1230.6452,0,0,600
+NOT BUYER,South Africa,Business Builder,1,0,391.875,18.75,2,70
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,1,730.9091,225.4545,0,412.727
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Norway,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Australia,Wholesale Buyer,1,0,498,1219.25,2,136
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,1,393.9394,0,0,110
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Norway,Customer,0,0,274.3467,840.0667,4,183.52
+NOT BUYER,Taiwan,Distributor,0,0,183.8713,0,3,173.271
+NOT BUYER,Australia,Distributor,1,0,395.25,1123.25,8,256
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,393.9394,336.9697,0,110
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Taiwan,Business Builder,1,0,1225.8065,24.1935,0,600
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Ghana,MarketPending,0,1,0.25,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,3787.8788,0,0,2500
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Taiwan,Distributor,0,1,2005,0,1,57.757
+NOT BUYER,Ghana,MarketPending,0,0,0.25,0,0,0
+NOT BUYER,Australia,Distributor,1,0,577.25,31.25,12,384
+NOT BUYER,Malaysia,Business Builder,1,0,3787.8788,0,0,2500
+NOT BUYER,Taiwan,Distributor,0,0,61.6129,0,1,57.757
+NOT BUYER,South Africa,Distributor,1,0,100,296.25,2,43.75
+NOT BUYER,Australia,Distributor,1,0,320.25,1768.75,6,192
+NOT BUYER,United States,Distributor,0,0,0,0,0,0
+NOT BUYER,Malaysia,Business Builder,1,0,3787.8788,0,0,2500
+NOT BUYER,Taiwan,Distributor,0,0,125.3229,735.1616,2,115.514
+NOT BUYER,Australia,Distributor,1,0,395.25,2943.25,8,256
+NOT BUYER,Malaysia,Business Builder,1,0,3787.8788,0,0,2500
+NOT BUYER,Malaysia,Distributor,1,0,87.1212,0,0,50.4545
+NOT BUYER,South Africa,Business Builder,1,0,310.625,96.25,0,26.25
