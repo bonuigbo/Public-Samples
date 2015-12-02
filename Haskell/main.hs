@@ -71,6 +71,7 @@ data User = User { userId :: Int
         c. Hit a char
             i. if in quoteStatus, throw error, else add char
 -}
+inputFile = "C:\\OProject\\BonuApp\\BioServer\\Data\\CsvFiles\\Users.csv"
 
 input1 = "0,bonuigbo,test,test@test.com,11/28/2015 11:50:29 AM,11/28/2015 11:58:16 AM"
 input2 = "2,sample,oba,\",\"\",pl\"\"as,,\"\",\"\"\"\"\",11/29/2015 1:03:24 PM,11/29/2015 1:03:24 PM"
@@ -149,8 +150,28 @@ test2 = parseCsvData input2
 test3 = parseCsvLine input3
 test4 = CParser.parseCsvLine input3
 
+
+{-|
 main = do  
-    handle <- openFile "Users.csv" ReadMode  
+    handle <- openFile inputFile ReadMode  
     contents <- hGetContents handle  
     putStr contents  
+    hClose handle
+    
+main = do   
+    withFile "something.txt" ReadMode (\handle -> do  
+        contents <- hGetContents handle  
+        putStr contents) 
+        
+main = do  
+    contents <- readFile inputFile
+    putStr contents
+-}
+main = do  
+    handle <- openFile inputFile ReadMode  
+    contents <- hGetContents handle
+    let datay = lines contents     
+        numberedTasks = CParser.parseCsvLine . head $ datay
+    putStr . head $ numberedTasks
+    --putStr contents  
     hClose handle
