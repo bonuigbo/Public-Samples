@@ -36,6 +36,7 @@ splitArray r c xs = take c xs : splitArray (r-1) c (drop c xs)
 
 -- Given an array of equally sized arrays, create an array containing their max
 maxArray :: (Ord a, Num a) => [[a]] -> [a]
+-- xs is a list, zipWith takes the max of the current acc list and holds the max values
 maxArray (xs:xsa) = foldl (\acc x -> zipWith max acc x) xs (xs:xsa)
 
 -- Sample problem
@@ -81,7 +82,9 @@ input3 = "\"test\",sample,oba,\",\"\",pl\"\"as,,\"\",\"\"\"\"\",\"11/29/2015 1:0
     Statuses relating to each character as it is read into the input.
     
 -}
+data QuoteStatus = InQuote | NoQuote deriving(Eq, Show)
 data CsvFieldStatus = Add | Skip | End | Quote | StartQuote deriving(Eq, Show)
+data ParseStatus = ParseStatus { parsedLine :: [String], parseField :: String, quoteStatus :: QuoteStatus, csvFieldStatus :: CsvFieldStatus }  deriving(Eq, Show)
 
 parseCsvChar :: Char -> CsvFieldStatus
 parseCsvChar x
@@ -133,6 +136,7 @@ skipCsvFieldQuotes ((x:xs), y)
     | status == End = 1
     | otherwise = 1 + skipCsvFieldQuotes (xs, status)
     where status = parseCsvCharQuotes (x, y)
+    
 
 parseCsvData :: String -> (Int, String)
 parseCsvData [] = (0, [])
@@ -150,7 +154,44 @@ test2 = parseCsvData input2
 test3 = parseCsvLine input3
 test4 = CParser.parseCsvLine input3
 
+endStatusLine :: ParseStatus -> ParseStatus
+endStatusLine ParseStatus { parsedLine=a, parseField=b, quoteStatus=c, csvFieldStatus=d} = ParseStatus { parsedLine=reverse $ (reverse b):a, parseField=[], quoteStatus=NoQuote, csvFieldStatus=End }
 
+getParsedStatusLine :: ParseStatus -> [String]
+getParsedStatusLine ParseStatus { parsedLine=a, parseField=b, quoteStatus=c, csvFieldStatus=d} = a
+
+
+parseStatusLine :: Char -> ParseStatus -> ParseStatus
+-- The case when we encounter a quoted character
+parseStatusLine x ParseStatus { parsedLine=a, parseField=b, quoteStatus=InQuote, csvFieldStatus=d}
+    -- The start condition, If the first char after the delimiter is not a quote, treat it as an unquoted field
+    | x /= '"' && d == End = ParseStatus { parsedLine=a, parseField=x:b, quoteStatus=NoQuote, csvFieldStatus=Add}
+    -- The end condition, the delimiter comes right after a single quote char
+    | x == ',' && d == Quote = ParseStatus { parsedLine=(reverse b):a, parseField=[], quoteStatus=NoQuote, csvFieldStatus=End}
+    | x == ',' = ParseStatus { parsedLine=a, parseField=x:b, quoteStatus=InQuote, csvFieldStatus=Add}
+--    | x == '"' && d == End = ParseStatus { parsedLine=a, parseField=b, quoteStatus=InQuote, csvFieldStatus=Skip}
+    | x == '"' && d == Quote = ParseStatus { parsedLine=a, parseField=x:b, quoteStatus=InQuote, csvFieldStatus=Add}
+    | x == '"' = ParseStatus { parsedLine=a, parseField=b, quoteStatus=InQuote, csvFieldStatus=Quote}
+    -- General case, if we just passed a single quote character and hit an unauthorized char, throw an error
+    | d == Quote = error ("Char cannot be added while in quote status - Char: " ++ (show $ reverse b) ++ (show a))
+    | otherwise = ParseStatus { parsedLine=a, parseField=x:b, quoteStatus=InQuote, csvFieldStatus=Add}    
+-- The case when we encounter a non quoted
+parseStatusLine x ParseStatus { parsedLine=a, parseField=b, quoteStatus=NoQuote, csvFieldStatus=d}
+    -- If the first char after the delimiter is a quote, treat it as an quoted field
+    | x == '"' && d == End = ParseStatus { parsedLine=a, parseField=b, quoteStatus=InQuote, csvFieldStatus=Skip}
+    -- If we are not in a quoted field, detecting this character is an error
+    | x == '"' = error ("Cannot have quotes inside an unquoted csv string " ++ (show $ reverse b))
+    -- The end condition, the delimiter appears
+    | x == ',' = ParseStatus { parsedLine=(reverse b):a, parseField=[], quoteStatus=NoQuote, csvFieldStatus=End} 
+    | otherwise = ParseStatus { parsedLine=a, parseField=x:b, quoteStatus=NoQuote, csvFieldStatus=Add} 
+
+
+parseCsvLine2 :: String -> [String]
+parseCsvLine2 [] = getParsedStatusLine $ ParseStatus { parsedLine=[], parseField=[], quoteStatus=NoQuote, csvFieldStatus=End}
+parseCsvLine2 (x:xs) = getParsedStatusLine $ endStatusLine $ foldl (\acc x -> parseStatusLine x acc) ParseStatus { parsedLine=[], parseField=[], quoteStatus=InQuote, csvFieldStatus=End} (x:xs)
+
+test5 = parseCsvLine2 input1
+test6 = parseCsvLine2 input3
 {-|
 main = do  
     handle <- openFile inputFile ReadMode  
