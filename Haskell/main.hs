@@ -1,6 +1,7 @@
-import qualified CsvParser as CParser
+import qualified CsvParser as CsvParser
 import qualified Data.Map as Map
 import System.IO
+import System.Directory
 
 {-|
     1. For parsing errors, look for the line/char before the error char
@@ -57,40 +58,21 @@ data User = User { userId :: Int
 inputFile = "C:\\OProject\\BonuApp\\BioServer\\Data\\CsvFiles\\Users.csv"
 
 input1 = "0,bonuigbo,test,test@test.com,11/28/2015 11:50:29 AM,11/28/2015 11:58:16 AM"
-input2 = "2,sample,oba,\",\"\",pl\"\"as,,\"\",\"\"\"\"\",11/29/2015 1:03:24 PM,11/29/2015 1:03:24 PM"
-input3 = "\"test\",sample,oba,\",\"\",pl\"\"as,,\"\",\"\"\"\"\",\"11/29/2015 1:03:24 PM\",11/29/2015 1:03:24 PM"
-
-test3 = do  
-    handle <- openFile inputFile ReadMode  
-    contents <- hGetContents handle
-    putStr $ show $ CParser.parseCsvLine contents
-    hClose handle
+input2 = "2,sample,oba,\",\"\",pl\"\"as,,\"\",\"\"\"\"\",\"11/29/2015 1:03:24 PM\",11/29/2015 1:03:24 PM"
+input3 = "1,test1,test@test.com\n\ 
+         \2,test2,test1,\"testquote\"\"\"\n\
+         \3,test3,test2,\"testcomma,,\"\n\
+         \\"4\",\"test4\",\"comma,quote\"\"end\"\n"
     
-test1 = CParser.parseCsvLine input1
-test2 = CParser.parseCsvLine input2
-
-test4 = "hello\nworld\ntest"
-{-|
-main = do  
-    handle <- openFile inputFile ReadMode  
-    contents <- hGetContents handle  
-    putStr contents  
-    hClose handle
+test1 = CsvParser.parseCsvLine input1
+test2 = CsvParser.parseCsvLine input2
+test3 = CsvParser.printReadCsvFile inputFile
+test4 = CsvParser.parseCsvFile input3
     
-main = do   
-    withFile "something.txt" ReadMode (\handle -> do  
-        contents <- hGetContents handle  
-        putStr contents) 
-        
-main = do  
-    contents <- readFile inputFile
-    putStr contents
--}
-main = do  
-    handle <- openFile inputFile ReadMode  
-    contents <- hGetContents handle
-    putStr contents
+projectRootDirectory = "C:\\CCCDesktop\\Platform\\Projects\\cccone.com\\Dev\\CCC.One.Platform.Web"
+missionStepApiControllersDirectory = "C:\\CCCDesktop\\Platform\\Projects\\cccone.com\\Dev\\CCC.One.Platform.Web\\Controllers\\Api\\Mission\\Missions"
+missionsLessDirectory = "C:\\CCCDesktop\\Platform\\Projects\\cccone.com\\Dev\\CCC.One.Platform.Web\\Content\\MissionDashboard\\Less\\Layouts\\Missions"
 
-    putStr $ show $ fmap CParser.parseCsvLine $ lines contents
-    --putStr contents  
-    hClose handle
+inputDirectory = "C:\\OProject\\BonuApp\\BioServer\\Data\\CsvFiles\\"
+contents = getDirectoryContents inputDirectory
+

@@ -1,8 +1,10 @@
-import System.IO
-
 module CsvParser 
-( parseCsvLine 
+( parseCsvLine,
+    parseCsvFile,
+    printReadCsvFile
 ) where 
+
+import System.IO
 
 -- =======================
 -- CSV Parser
@@ -41,7 +43,7 @@ endStatusLine ParseStatus { parsedLine=a, parseField=b, quoteStatus=c, csvFieldS
 -}
 parseStatusLine :: Char -> ParseStatus -> ParseStatus
 -- Next line char
-parseStatusLine '\n' ParseStatus { parsedLine=a, parseField=b, quoteStatus=c, csvFieldStatus=d} = ParseStatus { parsedLine=a ++ [b], parseField=[], quoteStatus=NoQuote, csvFieldStatus=End }
+parseStatusLine '\n' ParseStatus { parsedLine=a, parseField=b, quoteStatus=_, csvFieldStatus=_} = ParseStatus { parsedLine=a ++ [b], parseField=[], quoteStatus=NoQuote, csvFieldStatus=End }
 -- The case when we encounter a quoted character
 parseStatusLine x ParseStatus { parsedLine=a, parseField=b, quoteStatus=InQuote, csvFieldStatus=d}
     -- The start condition, If the first char after the delimiter is not a quote, treat it as an unquoted field
@@ -55,7 +57,7 @@ parseStatusLine x ParseStatus { parsedLine=a, parseField=b, quoteStatus=InQuote,
     | x == '"' = ParseStatus { parsedLine=a, parseField=b, quoteStatus=InQuote, csvFieldStatus=Quote}
     -- General case, if we just passed a single quote character and hit an unauthorized char, throw an error
     | d == Quote = error ("Char cannot be added while in quote status - Char: " ++ (show $ reverse b) ++ (show a))
-    | otherwise = ParseStatus { parsedLine=a, parseField=b ++ [x], quoteStatus=InQuote, csvFieldStatus=Next}    
+    | otherwise = ParseStatus { parsedLine=a, parseField=b ++ [x], quoteStatus=InQuote, csvFieldStatus=Next}
 -- The case when we encounter a non quoted
 parseStatusLine x ParseStatus { parsedLine=a, parseField=b, quoteStatus=NoQuote, csvFieldStatus=d}
     -- If the first char after the delimiter is a quote, treat it as an quoted field
@@ -68,4 +70,27 @@ parseStatusLine x ParseStatus { parsedLine=a, parseField=b, quoteStatus=NoQuote,
 
 parseCsvLine :: String -> [String]
 parseCsvLine [] = []
-parseCsvLine (x:xs) = parsedLine $ endStatusLine $ foldl (\acc x -> parseStatusLine x acc) ParseStatus { parsedLine=[], parseField=[], quoteStatus=NoQuote, csvFieldStatus=End} (x:xs)
+parseCsvLine (x:xs) = parsedLine $ endStatusLine $ foldl (\acc x -> parseStatusLine x acc) startStatus (x:xs)
+    where startStatus = ParseStatus { parsedLine=[], parseField=[], quoteStatus=NoQuote, csvFieldStatus=End}
+    
+parseCsvFile :: String -> [[String]]
+parseCsvFile x = fmap parseCsvLine $ lines x
+
+printReadCsvFile inputFile = do  
+    handle <- openFile inputFile ReadMode  
+    contents <- hGetContents handle
+    putStr $ show $ parseCsvFile contents
+    hClose handle
+    
+    
+-- TESTS
+input1 = "0,bonuigbo,test,test@test.com,11/28/2015 11:50:29 AM,11/28/2015 11:58:16 AM"
+input2 = "1,bonuigbo1,test1,\"testquote\"\"@test.com\",11/28/2015 11:50:29 AM,11/28/2015 11:58:16 AM"
+input3 = "2,bonuigbo2,test2,\"testcomma,,,,@test.com\",11/28/2015 11:50:29 AM,11/28/2015 11:58:16 AM"
+input4 = "\"3\",bonuigbo3,test3,test@test.com,11/28/2015 11:50:29 AM,11/28/2015 11:58:16 AM"
+
+
+assert :: (Bool, String) -> Bool
+assert (False, x) = error x
+assert (True, _) = True
+
