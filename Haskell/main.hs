@@ -1,5 +1,6 @@
 import qualified CsvParser as CsvParser
 import qualified Data.Map as Map
+import StringCase
 import System.IO
 import System.Directory
 
@@ -69,10 +70,27 @@ test2 = CsvParser.parseCsvLine input2
 test3 = CsvParser.printReadCsvFile inputFile
 test4 = CsvParser.parseCsvFile input3
     
-projectRootDirectory = "C:\\CCCDesktop\\Platform\\Projects\\cccone.com\\Dev\\CCC.One.Platform.Web"
-missionStepApiControllersDirectory = "C:\\CCCDesktop\\Platform\\Projects\\cccone.com\\Dev\\CCC.One.Platform.Web\\Controllers\\Api\\Mission\\Missions"
-missionsLessDirectory = "C:\\CCCDesktop\\Platform\\Projects\\cccone.com\\Dev\\CCC.One.Platform.Web\\Content\\MissionDashboard\\Less\\Layouts\\Missions"
+{-
+    Each mission has 
+-}
+projectRootDir = "C:\\CCCDesktop\\Platform\\Projects\\cccone.com\\Dev"
+missionStepApiControllersDir = projectRootDir ++ "\\CCC.One.Platform.Web\\Controllers\\Api\\Mission\\Missions"
+missionsLessDir = projectRootDir ++ "\\CCC.One.Platform.Web\\Content\\MissionDashboard\\Less\\Layouts\\Missions"
+routesDir = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Routes\\Missions"
+templatesDir = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\UI\\Templates\\Missions"
+typescriptControllersDir = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Controllers\\Missions"
+
+gameMissionsFile = projectRootDir ++ "\\CCC.One.Platform.Web.BusinessLogic\\Constants\\GameMissions.cs"
+missionDashboardFile = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Constants\\MissionDashboard.ts"
+apiEndpointsFile = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Constants\\ApiEndpoints.ts"
+referencesFile = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\_references.ts"
+missionsLessFile = projectRootDir ++ "\\CCC.One.Platform.Web\\Content\\MissionDashboard\\Less\\Layouts\\Missions\\Missions.less"
 
 inputDirectory = "C:\\OProject\\BonuApp\\BioServer\\Data\\CsvFiles\\"
-contents = getDirectoryContents inputDirectory
+contents = getDirectoryContents missionsLessDir
 
+printFileContents inputFile = do  
+    handle <- openFile inputFile ReadMode  
+    contents <- hGetContents handle
+    putStr contents
+    hClose handle

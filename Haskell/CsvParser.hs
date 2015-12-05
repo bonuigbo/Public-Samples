@@ -1,8 +1,4 @@
-module CsvParser 
-( parseCsvLine,
-    parseCsvFile,
-    printReadCsvFile
-) where 
+module CsvParser where 
 
 import System.IO
 
