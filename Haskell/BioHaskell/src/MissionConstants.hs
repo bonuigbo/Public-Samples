@@ -63,6 +63,7 @@ templatesDir = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard
 typescriptControllersDir = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Controllers\\Missions"
 
 gameMissionsFile = projectRootDir ++ "\\CCC.One.Platform.Web.BusinessLogic\\Constants\\GameMissions.cs"
+repairServiceFile = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Services\\RepairFacilityService.ts"
 missionDashboardFile = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Constants\\MissionDashboard.ts"
 apiEndpointsFile = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Constants\\ApiEndpoints.ts"
 referencesFile = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\_references.ts"
@@ -74,7 +75,8 @@ contents = getDirectoryContents typescriptControllersDir
 
 -- Takes two strings and determines if the second string contains the first
 containsString :: String -> String -> Bool
-containsString x y = if x `intersect` y == x then True else False
+containsString x y = if x `isInfixOf` y then True else False
+
 
 -- Takes two lists and outputs the values that are not in the second list from the first
 getMissingStringsFromList :: [String] -> [String] -> [String]
@@ -150,7 +152,7 @@ missingDashboardMissions = getMissingInFile missionNames missionDashboardFile
 missingDashboardSteps = getMissingInFile missionStepNames missionDashboardFile
 missingApiMissions = getMissingInFile missionNames apiEndpointsFile
 missingApiSteps = getMissingInFile missionStepNames apiEndpointsFile
-
+missingRepairSteps = getMissingInFile missionStepNames repairServiceFile
     
 printFile inputFile = do  
     handle <- openFile inputFile ReadMode  
