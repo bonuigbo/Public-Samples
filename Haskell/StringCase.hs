@@ -132,3 +132,21 @@ toSnake = downcase . concat . underscores . splitR isUpper
 -----------------------------------------------------------------------------
 
 -----------------------------------------------------------------------------
+
+-- Take a string, and replaces all instances of a char with another
+replace :: Char -> Char -> String -> String
+replace _ _ [] = []
+replace c d (x:xs)
+    | x == c = d : replace c d xs
+    | otherwise = x : replace c d xs
+    
+-- Take a string, and removes all instances of a char with another
+removeChar :: Char -> String -> String
+removeChar _ [] = []
+removeChar c (x:xs)
+    | x == c = removeChar c xs
+    | otherwise = x : removeChar c xs
+
+-- remove all spaces from a string
+removeSpace :: String -> String
+removeSpace = removeChar ' '

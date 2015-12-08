@@ -85,6 +85,21 @@ input2 = "1,bonuigbo1,test1,\"testquote\"\"@test.com\",11/28/2015 11:50:29 AM,11
 input3 = "2,bonuigbo2,test2,\"testcomma,,,,@test.com\",11/28/2015 11:50:29 AM,11/28/2015 11:58:16 AM"
 input4 = "\"3\",bonuigbo3,test3,test@test.com,11/28/2015 11:50:29 AM,11/28/2015 11:58:16 AM"
 
+inputDirectory = "C:\\OProject\\BonuApp\\BioServer\\Data\\CsvFiles\\"
+inputFile = "C:\\OProject\\BonuApp\\BioServer\\Data\\CsvFiles\\Users.csv"
+
+
+input6 = "2,sample,oba,\",\"\",pl\"\"as,,\"\",\"\"\"\"\",\"11/29/2015 1:03:24 PM\",11/29/2015 1:03:24 PM"
+input7 = "1,test1,test@test.com\n\ 
+         \2,test2,test1,\"testquote\"\"\"\n\
+         \3,test3,test2,\"testcomma,,\"\n\
+         \\"4\",\"test4\",\"comma,quote\"\"end\"\n"
+    
+test1 = CsvParser.parseCsvLine input1
+test2 = CsvParser.parseCsvLine input6
+test3 = CsvParser.printReadCsvFile inputFile
+test4 = CsvParser.parseCsvFile input7
+
 
 assert :: (Bool, String) -> Bool
 assert (False, x) = error x
