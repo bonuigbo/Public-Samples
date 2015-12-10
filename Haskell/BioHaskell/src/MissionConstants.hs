@@ -72,11 +72,14 @@ missionsLessFile = projectRootDir ++ "\\CCC.One.Platform.Web\\Content\\MissionDa
 contents = getDirectoryContents typescriptControllersDir
 
 
-
 -- Takes two strings and determines if the second string contains the first
 containsString :: String -> String -> Bool
 containsString x y = if x `isInfixOf` y then True else False
 
+
+-- Removes all spaces and uncertain characters from strings, and lower cases them
+normalize :: String -> String
+normalize = downcase . removeSpace . removeChar ',' . removeChar '.'
 
 -- Takes two lists and outputs the values that are not in the second list from the first
 getMissingStringsFromList :: [String] -> [String] -> [String]
@@ -85,64 +88,73 @@ getMissingStringsFromList [] _ = []
 getMissingStringsFromList (x:xs) y = if any (containsString x) y 
                                      then getMissingStringsFromList xs y 
                                      else x : getMissingStringsFromList xs y
-
+                                     
 -- Takes a list of strings and determines which are not in the given string             
 getMissingStringsFromString :: [String] -> String ->  [String]
-getMissingStringsFromString x [] = []
-getMissingStringsFromString [] _ = []
-getMissingStringsFromString (x:xs) y = if any (containsString x) (words y) 
-                                       then getMissingStringsFromString xs y 
-                                       else x : getMissingStringsFromString xs y
+getMissingStringsFromString x y = getMissingStringsFromList x (words y)
+
 {-|
     Unpure code
 -}
 
--- Takes a list of missions or steps and determines which of these words are not in the input file
-getMissingInFile :: [String] -> FilePath ->  IO [String]
-getMissingInFile x fileName = do
-    contents <- readFile fileName
-    --return $ [normalize contents]
-    return $ getMissingStringsFromString (fmap normalize x) (normalize contents)
-    where normalize = (downcase . removeSpace . removeChar ',' . removeChar '.')
+-- Since System.Directory.getDirectoryContents returns two path navigators, this removes them
+getDirectoryFilesAndFolders :: FilePath -> IO [FilePath]
+getDirectoryFilesAndFolders x = do
+    y <- getDirectoryContents x
+    return (init $ init y)
 
--- Takes a list of mission names, a file directory, and returns the missing ones    
-getMissingMissionsFromFileDir :: [String] -> FilePath -> IO [String]
-getMissingMissionsFromFileDir x y = do
-    z <- getDirectoryContents y
-    return $ getMissingStringsFromList (normalize x) (normalize z)
-    where normalize = fmap (downcase . removeSpace . removeChar ',' . removeChar '.')
-    
--- Takes a 
-getAllFilesInPaths :: [IO [String]] -> IO [String]
-getAllFilesInPaths (x:xs) = do -- x is a list of files, IO [String]
-    y <- x
-    z <- getAllFilesInPaths xs
-    return $ z ++ (init $ init y)
-getAllFilesInPaths x = return []
+-- A filter over getDirectoryContents which returns only files
+getDirectoryFiles :: FilePath ->  IO [FilePath]
+getDirectoryFiles x = do
+    y <- getDirectoryContents x
+    return $ init $ init $ filter (containsString ".") y
 
--- Takes a directory, goes through all the sub directories, and puts all the files from each sub directory
--- into a single list
+-- A filter over getDirectoryContents which returns only folders
+getDirectoryFolders :: FilePath ->  IO [FilePath]
+getDirectoryFolders x = do
+    y <- getDirectoryContents x
+    return $ filter (not . containsString "." ) y
+
+-- Takes a directory, goes through all the sub directories, one level deep,
+-- and puts all the files from each sub directory into a single list
 getSubfilesOfDirectory :: FilePath -> IO [String]
 getSubfilesOfDirectory x = do
-                                foldersAndFiles <- getDirectoryContents x
-                                folders <- let mapRootPathToFile = fmap (\x' -> x ++ "\\" ++ x')
-                                               removeNonFolders = filter (not . containsString "." )
-                                           in return $ mapRootPathToFile $ removeNonFolders foldersAndFiles -- [String] -> IO [String]
-                                subPathFoldersAndFiles <- return $ fmap getDirectoryContents folders -- [IO [String]] -> IO [IO [String]]
-                                combinedSubPathFoldersAndFiles <- getAllFilesInPaths subPathFoldersAndFiles
-                                return combinedSubPathFoldersAndFiles
+    folders <- getDirectoryFolders x
+    folderPaths <- let mapRootPath = fmap (\x' -> x ++ "\\" ++ x')
+                   in return $ mapRootPath folders -- [String] -> IO [String]
+    subPathFiles <- return $ fmap getDirectoryFiles folderPaths -- [IO [String]] -> IO [IO [String]]
+    concatFilesAndFolders subPathFiles
+    -- Takes a list of a list of files and folders, and combines them into one list
+    where concatFilesAndFolders :: [IO [String]] -> IO [String]
+          concatFilesAndFolders (x:xs) = do -- x is a list of files, IO [String]
+            z <- concatFilesAndFolders xs
+            y <- x    
+            return $ z ++ y
+          concatFilesAndFolders [] = return []
+     
+-- Takes a list of mission names, a file directory, and returns the missing ones    
+getMissingMissionsFromFileDir :: [String] -> FilePath -> IO [String]
+getMissingMissionsFromFileDir missionNames filePath = do
+    subDirectoriesAndFiles <- getDirectoryContents filePath
+    return $ getMissingStringsFromList (fmap normalize missionNames) (fmap normalize subDirectoriesAndFiles)
                                 
 -- Takes a list of mission names, a list of files, and returns the missing ones
 getMissingMissionsFromFiles :: [String] -> IO [String] -> IO [String]
 getMissingMissionsFromFiles x y = do
     z <- y
-    return (getMissingStringsFromList (normalize x) (normalize z))
-    where normalize = fmap (downcase . removeSpace . removeChar ',' . removeChar '.')
+    return $ getMissingStringsFromList (fmap normalize x) (fmap normalize z)
+    
+-- Takes a list of missions or steps and determines which of these words are not in the input file
+getMissingInFile :: [String] -> FilePath ->  IO [String]
+getMissingInFile missionNames fileName = do
+    contents <- readFile fileName
+    return $ getMissingStringsFromString (fmap normalize missionNames) (normalize contents)
     
 -- Grab the list of missing stuff
 missingStepControllers = getMissingMissionsFromFileDir missionStepNames missionStepApiControllersDir    
 missingRoutes = getMissingMissionsFromFileDir missionNames routesDir
 missingTemplateFolders = getMissingMissionsFromFileDir missionNames templatesDir
+missingTemplateFiles = getMissingMissionsFromFiles missionStepNames $ getSubfilesOfDirectory templatesDir
 missingMissionTypeControllers = getMissingMissionsFromFiles missionNames $ getSubfilesOfDirectory typescriptControllersDir
 missingStepTypeControllers = getMissingMissionsFromFiles missionStepNames $ getSubfilesOfDirectory typescriptControllersDir
 
@@ -154,7 +166,7 @@ missingApiMissions = getMissingInFile missionNames apiEndpointsFile
 missingApiSteps = getMissingInFile missionStepNames apiEndpointsFile
 missingRepairSteps = getMissingInFile missionStepNames repairServiceFile
     
-printFile inputFile = do  
+printFile inputFile = do
     handle <- openFile inputFile ReadMode  
     contents <- hGetContents handle
     putStr $ show contents

@@ -11,10 +11,9 @@ printFileContents inputFile = do
     handle <- openFile inputFile ReadMode  
     contents <- hGetContents handle
     putStr contents
+    --putStr $ show contents
     hClose handle
     
 main :: IO ()
-main = getArgs >>= print . haqify . head
- 
-haqify s = "Haq! " ++ s
-
+main = getArgs >>= print . haqify . head 
+helloWorld s = "Hello World"
