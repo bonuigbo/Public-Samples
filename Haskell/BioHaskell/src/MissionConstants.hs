@@ -6,6 +6,14 @@ import System.Directory
 import Data.List
 import Control.Monad
 
+{-|
+    
+    
+    
+
+
+-}
+
 data Mission = Mission { missionId :: Int   
                   ,missionName :: String  
     } deriving (Show, Eq)
@@ -33,7 +41,11 @@ missions = [
     ,Mission 1700 "Enhance your website"]
   
 missionSteps = [
-    MissionStep 301 "Your website"
+    MissionStep 101 "Activate Carwise"
+    ,MissionStep 201 "Service offerings"
+    ,MissionStep 202 "Payment types"
+    ,MissionStep 203 "Customer service hours"
+    ,MissionStep 301 "Your website"
     ,MissionStep 401 "Share customer reviews"
     ,MissionStep 501 "Company logo"
     ,MissionStep 601 "Languages spoken"
@@ -61,6 +73,7 @@ missionsLessDir = projectRootDir ++ "\\CCC.One.Platform.Web\\Content\\MissionDas
 routesDir = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Routes\\Missions"
 templatesDir = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\UI\\Templates\\Missions"
 typescriptControllersDir = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Controllers\\Missions"
+viewModelsDir = projectRootDir ++ "\\CCC.One.Platform.Web\\ViewModels\\Game\\Missions"
 
 gameMissionsFile = projectRootDir ++ "\\CCC.One.Platform.Web.BusinessLogic\\Constants\\GameMissions.cs"
 repairServiceFile = projectRootDir ++ "\\CCC.One.Platform.Web.Client.MissionDashboard\\Services\\RepairFacilityService.ts"
@@ -157,6 +170,7 @@ missingTemplateFolders = getMissingMissionsFromFileDir missionNames templatesDir
 missingTemplateFiles = getMissingMissionsFromFiles missionStepNames $ getSubfilesOfDirectory templatesDir
 missingMissionTypeControllers = getMissingMissionsFromFiles missionNames $ getSubfilesOfDirectory typescriptControllersDir
 missingStepTypeControllers = getMissingMissionsFromFiles missionStepNames $ getSubfilesOfDirectory typescriptControllersDir
+missingViewModels = getMissingMissionsFromFileDir missionStepNames viewModelsDir
 
 missingGameMissions = getMissingInFile missionNames gameMissionsFile
 missingGameSteps = getMissingInFile missionStepNames gameMissionsFile
@@ -166,9 +180,4 @@ missingApiMissions = getMissingInFile missionNames apiEndpointsFile
 missingApiSteps = getMissingInFile missionStepNames apiEndpointsFile
 missingRepairSteps = getMissingInFile missionStepNames repairServiceFile
     
-printFile inputFile = do
-    handle <- openFile inputFile ReadMode  
-    contents <- hGetContents handle
-    putStr $ show contents
-    putStr contents
-    hClose handle
+

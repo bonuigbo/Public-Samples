@@ -26,6 +26,9 @@ import System.IO
     Statuses relating to each character as it is read into the input.
     
 -}
+type CsvField = String
+type CsvRow = [CsvField]
+
 data QuoteStatus = InQuote | NoQuote deriving(Eq, Show)
 data CsvFieldStatus = Next | End | Quote deriving(Eq, Show)
 data ParseStatus = ParseStatus { parsedLine :: [String], parseField :: String, quoteStatus :: QuoteStatus, csvFieldStatus :: CsvFieldStatus }  deriving(Eq, Show)
