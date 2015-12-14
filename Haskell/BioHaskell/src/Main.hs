@@ -9,6 +9,10 @@ import System.Environment
 import Control.Applicative
 import Control.Monad (liftM, ap)
 
+{-|
+     
+-}
+
 
 printFileContents inputFile = do  
     handle <- openFile inputFile ReadMode  
@@ -16,18 +20,16 @@ printFileContents inputFile = do
     putStr contents
     --putStr $ show contents
     hClose handle
-    
-main :: IO ()
-main = print "Hello World"
+
 
 newtype Counter a = Counter { value :: (a, Int) } deriving (Show)
 
 instance Functor Counter where
-    fmap = liftM
+    fmap f (Counter (a, b)) = Counter (f a, b)
     
 instance Applicative Counter where
     pure a = Counter (a, 0)
-    (<*>) = ap
+    (Counter (f, b)) <*> (Counter (c, d)) = (Counter (f c, d + b))
     
 instance Monad Counter where
     return x = Counter (x, 0)
@@ -55,3 +57,26 @@ instance Monad Logger where
                   n = k a
                   (b, x) = execLogger n
               in Logger (b, w ++ x)
+
+{-|
+     File management. Need to generate a list of files, zip them
+     encrypt them, move them, etc.
+     First, need a list of all important files and directories,
+     Then need to 
+
+-}
+
+homeGitDir = "C:\\Users\\Bonu\\Documents"
+homeEmacsFile = "c:\\users\\bonu\\appdata\\roaming\\.emacs"
+gitDir = homeGitDir ++ "\\GitHub\\Public-Samples\\Haskell\\BioHaskell\\Env"
+gitEmacsFile = gitDir ++ "\\emacs.txt"
+
+
+-- Sync data from my local to the github
+
+main :: IO ()
+main = do
+  print "Running setup"
+  copyFile homeEmacsFile gitEmacsFile
+
+
