@@ -1,4 +1,0 @@
-Haskell
-==============
-
-Functional playground
